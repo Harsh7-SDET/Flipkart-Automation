@@ -1,0 +1,2042 @@
+[1752820414.361][INFO]: Starting ChromeDriver 138.0.7204.157 (e533e98b1267baa1f1c46d666b120e64e5146aa9-refs/branch-heads/7204@{#2046}) on port 2813
+[1752820414.362][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1752820414.367][INFO]: ChromeDriver was started successfully on port 2813
+[1752820414.961][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--remote-allow-origins=*" ],
+            "binary": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "extensions": [  ]
+         },
+         "goog:loggingPrefs": {
+            "browser": "ALL",
+            "driver": "ALL"
+         }
+      } ]
+   }
+}
+[1752820414.963][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1752820414.964][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1752820414.966][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1752820414.966][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1752820414.968][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-allow-origins=* --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\hp\AppData\Local\Temp\scoped_dir20916_1793641470" data:,
+[1752820415.574][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1752820415.582][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "138.0.7204.101",
+      "chrome": {
+         "chromedriverVersion": "138.0.7204.157 (e533e98b1267baa1f1c46d666b120e64e5146aa9-refs/branch-heads/7204@{#2046})",
+         "userDataDir": "C:\\Users\\hp\\AppData\\Local\\Temp\\scoped_dir20916_1793641470"
+      },
+      "fedcm:accounts": true,
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:60185"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:extension:minPinLength": true,
+      "webauthn:extension:prf": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "ce89fde5931bbbda822eb623ac384943"
+}
+[1752820415.780][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND MaximizeWindow {
+}
+[1752820415.780][INFO]: Waiting for pending navigations...
+[1752820415.783][INFO]: Done waiting for pending navigations. Status: ok
+[1752820415.838][INFO]: Waiting for pending navigations...
+[1752820415.840][INFO]: Done waiting for pending navigations. Status: ok
+[1752820415.840][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE MaximizeWindow {
+   "height": 688,
+   "width": 1296,
+   "x": -8,
+   "y": -8
+}
+[1752820415.848][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND SetTimeouts {
+   "implicit": 30000
+}
+[1752820415.848][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE SetTimeouts
+[1752820415.866][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND Navigate {
+   "url": "https://www.flipkart.com/"
+}
+[1752820415.866][INFO]: Waiting for pending navigations...
+[1752820415.867][INFO]: Done waiting for pending navigations. Status: ok
+[1752820416.325][INFO]: Waiting for pending navigations...
+[1752820417.666][INFO]: Done waiting for pending navigations. Status: ok
+[1752820417.666][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE Navigate
+[1752820417.691][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@name='q']"
+}
+[1752820417.691][INFO]: Waiting for pending navigations...
+[1752820417.695][INFO]: Done waiting for pending navigations. Status: ok
+[1752820417.709][INFO]: Waiting for pending navigations...
+[1752820417.714][INFO]: Done waiting for pending navigations. Status: ok
+[1752820417.715][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.384B28E3EC7C5E3C1B2F9F3B32BB4F20.e.69"
+}
+[1752820417.733][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.384B28E3EC7C5E3C1B2F9F3B32BB4F20.e.69"
+   } ],
+   "script": "/* isDisplayed */return (function(){return (function(){var g=this||self;\nfunction aa(a){var b=typeof a;if(\"object\"==b)if(a){if(a instanceof Array)return\"array\";if(a instanceof Object)return b;var c=Object.prototype.toString.call(a);if(\"[object Window]\"==c)return\"object\";if(\"[object Array]\"==c||\"number\"==typeof a.length&&\"undefined\"!=typeof a.splice&&\"undefined\"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable(\"splice\"))return\"array\";if(\"[object Function]\"==c||\"undefined\"!=typeof a.call&&\"undefined\"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable(\"call\"))return\"function\"}else return\"null\";else if(\"function\"==\nb&&\"undefined\"==typeof a.call)return\"object\";return b}function ca(a,b){function c(){}c.prototype=b.prototype;a.prototype=new c;a.prototype.constructor=a};var da=Array.prototype.indexOf?function(a,b){return Array.prototype.indexOf.call(a,b,void 0)}:function(a,b){if(\"string\"===typeof a)return\"string\"!==typeof b||1!=b.length?-1:a.indexOf(b,0);for(var c=0;c\u003Ca.length;c++)if(c in a&&a[c]===b)return c;return-1},ea=Array.prototype.some?function(a,b){return Array.prototype.some.call(a,b,void 0)}:function(a,b){for(var c=a.length,e=\"string\"===typeof a?a.split(\"\"):a,d=0;d\u003Cc;d++)if(d in e&&b.call(void 0,e[d],d,a))return!0;return!1},fa=Array.prototype.every?function(a,\nb){return Array.prototype.every.call(a,b,void 0)}:function(a,b){for(var c=a.length,e=\"string\"===typeof a?a.split(\"\"):a,d=0;d\u003Cc;d++)if(d in e&&!b.call(void 0,e[d],d,a))return!1;return!0};var ha={aliceblue:\"#f0f8ff\",antiquewhite:\"#faebd7\",aqua:\"#00ffff\",aquamarine:\"#7fffd4\",azure:\"#f0ffff\",beige:\"#f5f5dc\",bisque:\"#ffe4c4\",black:\"#000000\",blanchedalmond:\"#ffebcd\",blue:\"#0000ff\",blueviolet:\"#8a2be2\",brown:\"#a52a2a\",burlywood:\"#deb887\",cadetblue:\"#5f9ea0\",chartreuse:\"#7fff00\",chocolate:\"#d2691e\",coral:\"#ff7f50\",cornflowerblue:\"#6495ed\",cornsilk:\"#fff8dc\",crimson:\"#dc143c\",cyan:\"#00ffff\",darkblue:\"#00008b\",darkcyan:\"#008b8b\",darkgoldenrod:\"#b8860b\",darkgray:\"#a9a9a9\",darkgreen:\"#006400\",\ndarkgrey:\"#a9a9a9\",darkkhaki:\"#bdb76b\",darkmagenta:\"#8b008b\",darkolivegreen:\"#556b2f\",darkorange:\"#ff8c00\",darkorchid:\"#9932cc\",darkred:\"#8b0000\",darksalmon:\"#e9967a\",darkseagreen:\"#8fbc8f\",darkslateblue:\"#483d8b\",darkslategray:\"#2f4f4f\",darkslategrey:\"#2f4f4f\",darkturquoise:\"#00ced1\",darkviolet:\"#9400d3\",deeppink:\"#ff1493\",deepskyblue:\"#00bfff\",dimgray:\"#696969\",dimgrey:\"#696969\",dodgerblue:\"#1e90ff\",firebrick:\"#b22222\",floralwhite:\"#fffaf0\",forestgreen:\"#228b22\",fuchsia:\"#ff00ff\",gainsboro:\"#dcdcdc\",\nghostwhite:\"#f8f8ff\",gold:\"#ffd700\",goldenrod:\"#daa520\",gray:\"#808080\",green:\"#008000\",greenyellow:\"#adff2f\",grey:\"#808080\",honeydew:\"#f0fff0\",hotpink:\"#ff69b4\",indianred:\"#cd5c5c\",indigo:\"#4b0082\",ivory:\"#fffff0\",khaki:\"#f0e68c\",lavender:\"#e6e6fa\",lavenderblush:\"#fff0f5\",lawngreen:\"#7cfc00\",lemonchiffon:\"#fffacd\",lightblue:\"#add8e6\",lightcoral:\"#f08080\",lightcyan:\"#e0ffff\",lightgoldenrodyellow:\"#fafad2\",lightgray:\"#d3d3d3\",lightgreen:\"#90ee90\",lightgrey:\"#d3d3d3\",lightpink:\"#ffb6c1\",lightsalmon:\"#ffa07a\",\nlightseagreen:\"#20b2aa\",lightskyblue:\"#87cefa\",lightslategray:\"#778899\",lightslategrey:\"#778899\",lightsteelblue:\"#b0c4de\",lightyellow:\"#ffffe0\",lime:\"#00ff00\",limegreen:\"#32cd32\",linen:\"#faf0e6\",magenta:\"#ff00ff\",maroon:\"#800000\",mediumaquamarine:\"#66cdaa\",mediumblue:\"#0000cd\",mediumorchid:\"#ba55d3\",mediumpurple:\"#9370db\",mediumseagreen:\"#3cb371\",mediumslateblue:\"#7b68ee\",mediumspringgreen:\"#00fa9a\",mediumturquoise:\"#48d1cc\",mediumvioletred:\"#c71585\",midnightblue:\"#191970\",mintcream:\"#f5fffa\",mistyrose:\"#ffe4e1\",\nmoccasin:\"#ffe4b5\",navajowhite:\"#ffdead\",navy:\"#000080\",oldlace:\"#fdf5e6\",olive:\"#808000\",olivedrab:\"#6b8e23\",orange:\"#ffa500\",orangered:\"#ff4500\",orchid:\"#da70d6\",palegoldenrod:\"#eee8aa\",palegreen:\"#98fb98\",paleturquoise:\"#afeeee\",palevioletred:\"#db7093\",papayawhip:\"#ffefd5\",peachpuff:\"#ffdab9\",peru:\"#cd853f\",pink:\"#ffc0cb\",plum:\"#dda0dd\",powderblue:\"#b0e0e6\",purple:\"#800080\",red:\"#ff0000\",rosybrown:\"#bc8f8f\",royalblue:\"#4169e1\",saddlebrown:\"#8b4513\",salmon:\"#fa8072\",sandybrown:\"#f4a460\",seagreen:\"#2e8b57\",\nseashell:\"#fff5ee\",sienna:\"#a0522d\",silver:\"#c0c0c0\",skyblue:\"#87ceeb\",slateblue:\"#6a5acd\",slategray:\"#708090\",slategrey:\"#708090\",snow:\"#fffafa\",springgreen:\"#00ff7f\",steelblue:\"#4682b4\",tan:\"#d2b48c\",teal:\"#008080\",thistle:\"#d8bfd8\",tomato:\"#ff6347\",turquoise:\"#40e0d0\",violet:\"#ee82ee\",wheat:\"#f5deb3\",white:\"#ffffff\",whitesmoke:\"#f5f5f5\",yellow:\"#ffff00\",yellowgreen:\"#9acd32\"};var ia=\"backgroundColor borderTopColor borderRightColor borderBottomColor borderLeftColor color outlineColor\".split(\" \"),ja=/#([0-9a-fA-F])([0-9a-fA-F])([0-9a-fA-F])/,ka=/^#(?:[0-9a-f]{3}){1,2}$/i,la=/^(?:rgba)?\\((\\d{1,3}),\\s?(\\d{1,3}),\\s?(\\d{1,3}),\\s?(0|1|0\\.\\d*)\\)$/i,ma=/^(?:rgb)?\\((0|[1-9]\\d{0,2}),\\s?(0|[1-9]\\d{0,2}),\\s?(0|[1-9]\\d{0,2})\\)$/i;function m(a,b){this.code=a;this.a=p[a]||r;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(c){return c.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}ca(m,Error);var r=\"unknown error\",p={15:\"element not selectable\",11:\"element not visible\"};p[31]=r;p[30]=r;p[24]=\"invalid cookie domain\";p[29]=\"invalid element coordinates\";p[12]=\"invalid element state\";\np[32]=\"invalid selector\";p[51]=\"invalid selector\";p[52]=\"invalid selector\";p[17]=\"javascript error\";p[405]=\"unsupported operation\";p[34]=\"move target out of bounds\";p[27]=\"no such alert\";p[7]=\"no such element\";p[8]=\"no such frame\";p[23]=\"no such window\";p[28]=\"script timeout\";p[33]=\"session not created\";p[10]=\"stale element reference\";p[21]=\"timeout\";p[25]=\"unable to set cookie\";p[26]=\"unexpected alert open\";p[13]=r;p[9]=\"unknown command\";var u=String.prototype.trim?function(a){return a.trim()}:function(a){return/^[\\s\\xa0]*([\\s\\S]*?)[\\s\\xa0]*$/.exec(a)[1]};\nfunction na(a,b){var c=0;a=u(String(a)).split(\".\");b=u(String(b)).split(\".\");for(var e=Math.max(a.length,b.length),d=0;0==c&&d\u003Ce;d++){var f=a[d]||\"\",h=b[d]||\"\";do{f=/(\\d*)(\\D*)(.*)/.exec(f)||[\"\",\"\",\"\",\"\"];h=/(\\d*)(\\D*)(.*)/.exec(h)||[\"\",\"\",\"\",\"\"];if(0==f[0].length&&0==h[0].length)break;c=v(0==f[1].length?0:parseInt(f[1],10),0==h[1].length?0:parseInt(h[1],10))||v(0==f[2].length,0==h[2].length)||v(f[2],h[2]);f=f[3];h=h[3]}while(0==c)}return c}function v(a,b){return a\u003Cb?-1:a>b?1:0};var w;a:{var oa=g.navigator;if(oa){var sa=oa.userAgent;if(sa){w=sa;break a}}w=\"\"}function x(a){return-1!=w.indexOf(a)};function y(){return x(\"Firefox\")||x(\"FxiOS\")}function A(){return(x(\"Chrome\")||x(\"CriOS\"))&&!x(\"Edge\")};function ta(a){return String(a).replace(/\\-([a-z])/g,function(b,c){return c.toUpperCase()})};function B(){return x(\"iPhone\")&&!x(\"iPod\")&&!x(\"iPad\")};function ua(a,b){var c=va;return Object.prototype.hasOwnProperty.call(c,a)?c[a]:c[a]=b(a)};var wa=x(\"Opera\"),C=x(\"Trident\")||x(\"MSIE\"),xa=x(\"Edge\"),ya=x(\"Gecko\")&&!(-1!=w.toLowerCase().indexOf(\"webkit\")&&!x(\"Edge\"))&&!(x(\"Trident\")||x(\"MSIE\"))&&!x(\"Edge\"),za=-1!=w.toLowerCase().indexOf(\"webkit\")&&!x(\"Edge\");function Aa(){var a=g.document;return a?a.documentMode:void 0}var E;\na:{var F=\"\",G=function(){var a=w;if(ya)return/rv:([^\\);]+)(\\)|;)/.exec(a);if(xa)return/Edge\\/([\\d\\.]+)/.exec(a);if(C)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(za)return/WebKit\\/(\\S+)/.exec(a);if(wa)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();G&&(F=G?G[1]:\"\");if(C){var H=Aa();if(null!=H&&H>parseFloat(F)){E=String(H);break a}}E=F}var va={};function Ba(a){return ua(a,function(){return 0\u003C=na(E,a)})}var I;I=g.document&&C?Aa():void 0;var Ca=y(),Da=B()||x(\"iPod\"),Ea=x(\"iPad\"),Fa=x(\"Android\")&&!(A()||y()||x(\"Opera\")||x(\"Silk\")),Ga=A(),Ha=x(\"Safari\")&&!(A()||x(\"Coast\")||x(\"Opera\")||x(\"Edge\")||x(\"Edg/\")||x(\"OPR\")||y()||x(\"Silk\")||x(\"Android\"))&&!(B()||x(\"iPad\")||x(\"iPod\"));function J(a){return(a=a.exec(w))?a[1]:\"\"}(function(){if(Ca)return J(/Firefox\\/([0-9.]+)/);if(C||xa||wa)return E;if(Ga)return B()||x(\"iPad\")||x(\"iPod\")?J(/CriOS\\/([0-9.]+)/):J(/Chrome\\/([0-9.]+)/);if(Ha&&!(B()||x(\"iPad\")||x(\"iPod\")))return J(/Version\\/([0-9.]+)/);if(Da||Ea){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(w);if(a)return a[1]+\".\"+a[2]}else if(Fa)return(a=J(/Android\\s+([0-9.]+)/))?a:J(/Version\\/([0-9.]+)/);return\"\"})();var K;if(K=C)K=!(9\u003C=Number(I));var Ia=K;function L(a,b){this.x=void 0!==a?a:0;this.y=void 0!==b?b:0}L.prototype.ceil=function(){this.x=Math.ceil(this.x);this.y=Math.ceil(this.y);return this};L.prototype.floor=function(){this.x=Math.floor(this.x);this.y=Math.floor(this.y);return this};L.prototype.round=function(){this.x=Math.round(this.x);this.y=Math.round(this.y);return this};function M(a,b){this.width=a;this.height=b}M.prototype.aspectRatio=function(){return this.width/this.height};M.prototype.ceil=function(){this.width=Math.ceil(this.width);this.height=Math.ceil(this.height);return this};M.prototype.floor=function(){this.width=Math.floor(this.width);this.height=Math.floor(this.height);return this};M.prototype.round=function(){this.width=Math.round(this.width);this.height=Math.round(this.height);return this};function N(a){return 9==a.nodeType?a:a.ownerDocument||a.document}function Ja(a,b){a&&(a=a.parentNode);for(var c=0;a;){if(b(a))return a;a=a.parentNode;c++}return null}function Ka(a){this.a=a||g.document||document};function P(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)};function Q(a,b,c,e){this.f=a;this.a=b;this.b=c;this.c=e}Q.prototype.ceil=function(){this.f=Math.ceil(this.f);this.a=Math.ceil(this.a);this.b=Math.ceil(this.b);this.c=Math.ceil(this.c);return this};Q.prototype.floor=function(){this.f=Math.floor(this.f);this.a=Math.floor(this.a);this.b=Math.floor(this.b);this.c=Math.floor(this.c);return this};Q.prototype.round=function(){this.f=Math.round(this.f);this.a=Math.round(this.a);this.b=Math.round(this.b);this.c=Math.round(this.c);return this};function R(a,b,c,e){this.a=a;this.b=b;this.width=c;this.height=e}R.prototype.ceil=function(){this.a=Math.ceil(this.a);this.b=Math.ceil(this.b);this.width=Math.ceil(this.width);this.height=Math.ceil(this.height);return this};R.prototype.floor=function(){this.a=Math.floor(this.a);this.b=Math.floor(this.b);this.width=Math.floor(this.width);this.height=Math.floor(this.height);return this};\nR.prototype.round=function(){this.a=Math.round(this.a);this.b=Math.round(this.b);this.width=Math.round(this.width);this.height=Math.round(this.height);return this};var La=\"function\"===typeof ShadowRoot;function S(a){for(a=a.parentNode;a&&1!=a.nodeType&&9!=a.nodeType&&11!=a.nodeType;)a=a.parentNode;return P(a)?a:null}\nfunction T(a,b){b=ta(b);if(\"float\"==b||\"cssFloat\"==b||\"styleFloat\"==b)b=Ia?\"styleFloat\":\"cssFloat\";a:{var c=b;var e=N(a);if(e.defaultView&&e.defaultView.getComputedStyle&&(e=e.defaultView.getComputedStyle(a,null))){c=e[c]||e.getPropertyValue(c)||\"\";break a}c=\"\"}a=c||Ma(a,b);if(null===a)a=null;else if(0\u003C=da(ia,b)){b:{var d=a.match(la);if(d&&(b=Number(d[1]),c=Number(d[2]),e=Number(d[3]),d=Number(d[4]),0\u003C=b&&255>=b&&0\u003C=c&&255>=c&&0\u003C=e&&255>=e&&0\u003C=d&&1>=d)){b=[b,c,e,d];break b}b=null}if(!b)b:{if(e=a.match(ma))if(b=\nNumber(e[1]),c=Number(e[2]),e=Number(e[3]),0\u003C=b&&255>=b&&0\u003C=c&&255>=c&&0\u003C=e&&255>=e){b=[b,c,e,1];break b}b=null}if(!b)b:{b=a.toLowerCase();c=ha[b.toLowerCase()];if(!c&&(c=\"#\"==b.charAt(0)?b:\"#\"+b,4==c.length&&(c=c.replace(ja,\"#$1$1$2$2$3$3\")),!ka.test(c))){b=null;break b}b=[parseInt(c.substr(1,2),16),parseInt(c.substr(3,2),16),parseInt(c.substr(5,2),16),1]}a=b?\"rgba(\"+b.join(\", \")+\")\":a}return a}\nfunction Ma(a,b){var c=a.currentStyle||a.style,e=c[b];void 0===e&&\"function\"==aa(c.getPropertyValue)&&(e=c.getPropertyValue(b));return\"inherit\"!=e?void 0!==e?e:null:(a=S(a))?Ma(a,b):null}\nfunction U(a,b,c){function e(h){var n=V(h);return 0\u003Cn.height&&0\u003Cn.width?!0:P(h,\"PATH\")&&(0\u003Cn.height||0\u003Cn.width)?(h=T(h,\"stroke-width\"),!!h&&0\u003CparseInt(h,10)):\"hidden\"!=T(h,\"overflow\")&&ea(h.childNodes,function(D){return 3==D.nodeType||P(D)&&e(D)})}function d(h){return Na(h)==W&&fa(h.childNodes,function(n){return!P(n)||d(n)||!e(n)})}if(!P(a))throw Error(\"Argument to isShown must be of type Element\");if(P(a,\"BODY\"))return!0;if(P(a,\"OPTION\")||P(a,\"OPTGROUP\"))return a=Ja(a,function(h){return P(h,\"SELECT\")}),\n!!a&&U(a,!0,c);var f=Oa(a);if(f)return!!f.image&&0\u003Cf.rect.width&&0\u003Cf.rect.height&&U(f.image,b,c);if(P(a,\"INPUT\")&&\"hidden\"==a.type.toLowerCase()||P(a,\"NOSCRIPT\"))return!1;f=T(a,\"visibility\");return\"collapse\"!=f&&\"hidden\"!=f&&c(a)&&(b||0!=Pa(a))&&e(a)?!d(a):!1}var W=\"hidden\";\nfunction Na(a){function b(k){function l(ba){if(ba==h)return!0;var pa=T(ba,\"display\");return 0==pa.lastIndexOf(\"inline\",0)||\"contents\"==pa||\"absolute\"==qa&&\"static\"==T(ba,\"position\")?!1:!0}var qa=T(k,\"position\");if(\"fixed\"==qa)return ra=!0,k==h?null:h;for(k=S(k);k&&!l(k);)k=S(k);return k}function c(k){var l=k;if(\"visible\"==D)if(k==h&&n)l=n;else if(k==n)return{x:\"visible\",y:\"visible\"};l={x:T(l,\"overflow-x\"),y:T(l,\"overflow-y\")};k==h&&(l.x=\"visible\"==l.x?\"auto\":l.x,l.y=\"visible\"==l.y?\"auto\":l.y);return l}\nfunction e(k){if(k==h){var l=(new Ka(f)).a;k=l.scrollingElement?l.scrollingElement:za||\"CSS1Compat\"!=l.compatMode?l.body||l.documentElement:l.documentElement;l=l.parentWindow||l.defaultView;k=C&&Ba(\"10\")&&l.pageYOffset!=k.scrollTop?new L(k.scrollLeft,k.scrollTop):new L(l.pageXOffset||k.scrollLeft,l.pageYOffset||k.scrollTop)}else k=new L(k.scrollLeft,k.scrollTop);return k}var d=Qa(a),f=N(a),h=f.documentElement,n=f.body,D=T(h,\"overflow\"),ra;for(a=b(a);a;a=b(a)){var q=c(a);if(\"visible\"!=q.x||\"visible\"!=\nq.y){var t=V(a);if(0==t.width||0==t.height)return W;var z=d.a\u003Ct.a,O=d.b\u003Ct.b;if(z&&\"hidden\"==q.x||O&&\"hidden\"==q.y)return W;if(z&&\"visible\"!=q.x||O&&\"visible\"!=q.y){z=e(a);O=d.b\u003Ct.b-z.y;if(d.a\u003Ct.a-z.x&&\"visible\"!=q.x||O&&\"visible\"!=q.x)return W;d=Na(a);return d==W?W:\"scroll\"}z=d.c>=t.a+t.width;t=d.f>=t.b+t.height;if(z&&\"hidden\"==q.x||t&&\"hidden\"==q.y)return W;if(z&&\"visible\"!=q.x||t&&\"visible\"!=q.y){if(ra&&(q=e(a),d.c>=h.scrollWidth-q.x||d.a>=h.scrollHeight-q.y))return W;d=Na(a);return d==W?W:\"scroll\"}}}return\"none\"}\nfunction V(a){var b=Oa(a);if(b)return b.rect;if(P(a,\"HTML\"))return a=N(a),a=((a?a.parentWindow||a.defaultView:window)||window).document,a=\"CSS1Compat\"==a.compatMode?a.documentElement:a.body,a=new M(a.clientWidth,a.clientHeight),new R(0,0,a.width,a.height);try{var c=a.getBoundingClientRect()}catch(e){return new R(0,0,0,0)}b=new R(c.left,c.top,c.right-c.left,c.bottom-c.top);C&&a.ownerDocument.body&&(a=N(a),b.a-=a.documentElement.clientLeft+a.body.clientLeft,b.b-=a.documentElement.clientTop+a.body.clientTop);\nreturn b}\nfunction Oa(a){var b=P(a,\"MAP\");if(!b&&!P(a,\"AREA\"))return null;var c=b?a:P(a.parentNode,\"MAP\")?a.parentNode:null,e=null,d=null;if(c&&c.name){e='*[usemap=\"#'+c.name+'\"]';c=N(c);var f;if(f=\"function\"!=aa(c.querySelector)&&C&&(C?0\u003C=na(I,8):Ba(8))){f=c.querySelector;var h=typeof f;f=!(\"object\"==h&&null!=f||\"function\"==h)}if(f)throw Error(\"CSS selection is not supported\");if(!e)throw new m(32,\"No selector specified\");e=u(e);try{var n=c.querySelector(e)}catch(D){throw new m(32,\"An invalid or illegal selector was specified\");}if(e=\nn&&1==n.nodeType?n:null)d=V(e),b||\"default\"==a.shape.toLowerCase()||(a=Ra(a),b=Math.min(Math.max(a.a,0),d.width),n=Math.min(Math.max(a.b,0),d.height),d=new R(b+d.a,n+d.b,Math.min(a.width,d.width-b),Math.min(a.height,d.height-n)))}return{image:e,rect:d||new R(0,0,0,0)}}\nfunction Ra(a){var b=a.shape.toLowerCase();a=a.coords.split(\",\");if(\"rect\"==b&&4==a.length){b=a[0];var c=a[1];return new R(b,c,a[2]-b,a[3]-c)}if(\"circle\"==b&&3==a.length)return b=a[2],new R(a[0]-b,a[1]-b,2*b,2*b);if(\"poly\"==b&&2\u003Ca.length){b=a[0];c=a[1];for(var e=b,d=c,f=2;f+1\u003Ca.length;f+=2)b=Math.min(b,a[f]),e=Math.max(e,a[f]),c=Math.min(c,a[f+1]),d=Math.max(d,a[f+1]);return new R(b,c,e-b,d-c)}return new R(0,0,0,0)}function Qa(a){a=V(a);return new Q(a.b,a.a+a.width,a.b+a.height,a.a)}\nfunction Pa(a){if(Ia){if(\"relative\"==T(a,\"position\"))return 1;a=T(a,\"filter\");return(a=a.match(/^alpha\\(opacity=(\\d*)\\)/)||a.match(/^progid:DXImageTransform.Microsoft.Alpha\\(Opacity=(\\d*)\\)/))?Number(a[1])/100:1}return Sa(a)}function Sa(a){var b=1,c=T(a,\"opacity\");c&&(b=Number(c));(a=S(a))&&(b*=Sa(a));return b};function Ta(a,b){function c(e){if(P(e)&&\"none\"==T(e,\"display\"))return!1;var d;if((d=e.parentNode)&&d.shadowRoot&&void 0!==e.assignedSlot)d=e.assignedSlot?e.assignedSlot.parentNode:null;else if(e.getDestinationInsertionPoints){var f=e.getDestinationInsertionPoints();0\u003Cf.length&&(d=f[f.length-1])}if(La&&d instanceof ShadowRoot){if(d.host.shadowRoot&&d.host.shadowRoot!==d)return!1;d=d.host}return!d||9!=d.nodeType&&11!=d.nodeType?d&&P(d,\"DETAILS\")&&!d.open&&!P(e,\"SUMMARY\")?!1:!!d&&c(d):!0}return U(a,\n!!b,c)}var X=[\"_\"],Y=g;X[0]in Y||\"undefined\"==typeof Y.execScript||Y.execScript(\"var \"+X[0]);for(var Z;X.length&&(Z=X.shift());)X.length||void 0===Ta?Y[Z]&&Y[Z]!==Object.prototype[Z]?Y=Y[Z]:Y=Y[Z]={}:Y[Z]=Ta;; return this._.apply(null,arguments);}).apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1752820417.733][INFO]: Waiting for pending navigations...
+[1752820417.734][INFO]: Done waiting for pending navigations. Status: ok
+[1752820417.750][INFO]: Waiting for pending navigations...
+[1752820417.751][INFO]: Done waiting for pending navigations. Status: ok
+[1752820417.751][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE ExecuteScript true
+[1752820417.758][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@name='q']"
+}
+[1752820417.758][INFO]: Waiting for pending navigations...
+[1752820417.759][INFO]: Done waiting for pending navigations. Status: ok
+[1752820417.780][INFO]: Waiting for pending navigations...
+[1752820417.781][INFO]: Done waiting for pending navigations. Status: ok
+[1752820417.781][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.384B28E3EC7C5E3C1B2F9F3B32BB4F20.e.69"
+}
+[1752820417.786][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND ClearElement {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.384B28E3EC7C5E3C1B2F9F3B32BB4F20.e.69"
+}
+[1752820417.786][INFO]: Waiting for pending navigations...
+[1752820417.787][INFO]: Done waiting for pending navigations. Status: ok
+[1752820417.812][INFO]: 
+	=== NOTE: ===
+	The Clear command in ChromeDriver 2.43 and above
+	has been updated to conform to the current standard,
+	including raising blur event after clearing.
+
+[1752820417.828][INFO]: Waiting for pending navigations...
+[1752820417.847][INFO]: Done waiting for pending navigations. Status: ok
+[1752820417.847][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE ClearElement
+[1752820417.858][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND TypeElement {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.384B28E3EC7C5E3C1B2F9F3B32BB4F20.e.69",
+   "text": "Washing Machine",
+   "value": [ "W", "a", "s", "h", "i", "n", "g", " ", "M", "a", "c", "h", "i", "n", "e" ]
+}
+[1752820417.858][INFO]: Waiting for pending navigations...
+[1752820417.859][INFO]: Done waiting for pending navigations. Status: ok
+[1752820417.940][INFO]: Waiting for pending navigations...
+[1752820417.949][INFO]: Done waiting for pending navigations. Status: ok
+[1752820417.949][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE TypeElement
+[1752820417.956][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND TypeElement {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.384B28E3EC7C5E3C1B2F9F3B32BB4F20.e.69",
+   "text": "",
+   "value": [ "" ]
+}
+[1752820417.956][INFO]: Waiting for pending navigations...
+[1752820417.957][INFO]: Done waiting for pending navigations. Status: ok
+[1752820417.995][INFO]: Waiting for pending navigations...
+[1752820419.968][INFO]: Done waiting for pending navigations. Status: ok
+[1752820419.968][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE TypeElement
+[1752820422.986][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[contains(text(),'Popularity')]"
+}
+[1752820422.986][INFO]: Waiting for pending navigations...
+[1752820422.987][INFO]: Done waiting for pending navigations. Status: ok
+[1752820422.996][INFO]: Waiting for pending navigations...
+[1752820422.997][INFO]: Done waiting for pending navigations. Status: ok
+[1752820422.997][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.299"
+}
+[1752820423.002][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.299"
+   } ],
+   "script": "/* isDisplayed */return (function(){return (function(){var g=this||self;\nfunction aa(a){var b=typeof a;if(\"object\"==b)if(a){if(a instanceof Array)return\"array\";if(a instanceof Object)return b;var c=Object.prototype.toString.call(a);if(\"[object Window]\"==c)return\"object\";if(\"[object Array]\"==c||\"number\"==typeof a.length&&\"undefined\"!=typeof a.splice&&\"undefined\"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable(\"splice\"))return\"array\";if(\"[object Function]\"==c||\"undefined\"!=typeof a.call&&\"undefined\"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable(\"call\"))return\"function\"}else return\"null\";else if(\"function\"==\nb&&\"undefined\"==typeof a.call)return\"object\";return b}function ca(a,b){function c(){}c.prototype=b.prototype;a.prototype=new c;a.prototype.constructor=a};var da=Array.prototype.indexOf?function(a,b){return Array.prototype.indexOf.call(a,b,void 0)}:function(a,b){if(\"string\"===typeof a)return\"string\"!==typeof b||1!=b.length?-1:a.indexOf(b,0);for(var c=0;c\u003Ca.length;c++)if(c in a&&a[c]===b)return c;return-1},ea=Array.prototype.some?function(a,b){return Array.prototype.some.call(a,b,void 0)}:function(a,b){for(var c=a.length,e=\"string\"===typeof a?a.split(\"\"):a,d=0;d\u003Cc;d++)if(d in e&&b.call(void 0,e[d],d,a))return!0;return!1},fa=Array.prototype.every?function(a,\nb){return Array.prototype.every.call(a,b,void 0)}:function(a,b){for(var c=a.length,e=\"string\"===typeof a?a.split(\"\"):a,d=0;d\u003Cc;d++)if(d in e&&!b.call(void 0,e[d],d,a))return!1;return!0};var ha={aliceblue:\"#f0f8ff\",antiquewhite:\"#faebd7\",aqua:\"#00ffff\",aquamarine:\"#7fffd4\",azure:\"#f0ffff\",beige:\"#f5f5dc\",bisque:\"#ffe4c4\",black:\"#000000\",blanchedalmond:\"#ffebcd\",blue:\"#0000ff\",blueviolet:\"#8a2be2\",brown:\"#a52a2a\",burlywood:\"#deb887\",cadetblue:\"#5f9ea0\",chartreuse:\"#7fff00\",chocolate:\"#d2691e\",coral:\"#ff7f50\",cornflowerblue:\"#6495ed\",cornsilk:\"#fff8dc\",crimson:\"#dc143c\",cyan:\"#00ffff\",darkblue:\"#00008b\",darkcyan:\"#008b8b\",darkgoldenrod:\"#b8860b\",darkgray:\"#a9a9a9\",darkgreen:\"#006400\",\ndarkgrey:\"#a9a9a9\",darkkhaki:\"#bdb76b\",darkmagenta:\"#8b008b\",darkolivegreen:\"#556b2f\",darkorange:\"#ff8c00\",darkorchid:\"#9932cc\",darkred:\"#8b0000\",darksalmon:\"#e9967a\",darkseagreen:\"#8fbc8f\",darkslateblue:\"#483d8b\",darkslategray:\"#2f4f4f\",darkslategrey:\"#2f4f4f\",darkturquoise:\"#00ced1\",darkviolet:\"#9400d3\",deeppink:\"#ff1493\",deepskyblue:\"#00bfff\",dimgray:\"#696969\",dimgrey:\"#696969\",dodgerblue:\"#1e90ff\",firebrick:\"#b22222\",floralwhite:\"#fffaf0\",forestgreen:\"#228b22\",fuchsia:\"#ff00ff\",gainsboro:\"#dcdcdc\",\nghostwhite:\"#f8f8ff\",gold:\"#ffd700\",goldenrod:\"#daa520\",gray:\"#808080\",green:\"#008000\",greenyellow:\"#adff2f\",grey:\"#808080\",honeydew:\"#f0fff0\",hotpink:\"#ff69b4\",indianred:\"#cd5c5c\",indigo:\"#4b0082\",ivory:\"#fffff0\",khaki:\"#f0e68c\",lavender:\"#e6e6fa\",lavenderblush:\"#fff0f5\",lawngreen:\"#7cfc00\",lemonchiffon:\"#fffacd\",lightblue:\"#add8e6\",lightcoral:\"#f08080\",lightcyan:\"#e0ffff\",lightgoldenrodyellow:\"#fafad2\",lightgray:\"#d3d3d3\",lightgreen:\"#90ee90\",lightgrey:\"#d3d3d3\",lightpink:\"#ffb6c1\",lightsalmon:\"#ffa07a\",\nlightseagreen:\"#20b2aa\",lightskyblue:\"#87cefa\",lightslategray:\"#778899\",lightslategrey:\"#778899\",lightsteelblue:\"#b0c4de\",lightyellow:\"#ffffe0\",lime:\"#00ff00\",limegreen:\"#32cd32\",linen:\"#faf0e6\",magenta:\"#ff00ff\",maroon:\"#800000\",mediumaquamarine:\"#66cdaa\",mediumblue:\"#0000cd\",mediumorchid:\"#ba55d3\",mediumpurple:\"#9370db\",mediumseagreen:\"#3cb371\",mediumslateblue:\"#7b68ee\",mediumspringgreen:\"#00fa9a\",mediumturquoise:\"#48d1cc\",mediumvioletred:\"#c71585\",midnightblue:\"#191970\",mintcream:\"#f5fffa\",mistyrose:\"#ffe4e1\",\nmoccasin:\"#ffe4b5\",navajowhite:\"#ffdead\",navy:\"#000080\",oldlace:\"#fdf5e6\",olive:\"#808000\",olivedrab:\"#6b8e23\",orange:\"#ffa500\",orangered:\"#ff4500\",orchid:\"#da70d6\",palegoldenrod:\"#eee8aa\",palegreen:\"#98fb98\",paleturquoise:\"#afeeee\",palevioletred:\"#db7093\",papayawhip:\"#ffefd5\",peachpuff:\"#ffdab9\",peru:\"#cd853f\",pink:\"#ffc0cb\",plum:\"#dda0dd\",powderblue:\"#b0e0e6\",purple:\"#800080\",red:\"#ff0000\",rosybrown:\"#bc8f8f\",royalblue:\"#4169e1\",saddlebrown:\"#8b4513\",salmon:\"#fa8072\",sandybrown:\"#f4a460\",seagreen:\"#2e8b57\",\nseashell:\"#fff5ee\",sienna:\"#a0522d\",silver:\"#c0c0c0\",skyblue:\"#87ceeb\",slateblue:\"#6a5acd\",slategray:\"#708090\",slategrey:\"#708090\",snow:\"#fffafa\",springgreen:\"#00ff7f\",steelblue:\"#4682b4\",tan:\"#d2b48c\",teal:\"#008080\",thistle:\"#d8bfd8\",tomato:\"#ff6347\",turquoise:\"#40e0d0\",violet:\"#ee82ee\",wheat:\"#f5deb3\",white:\"#ffffff\",whitesmoke:\"#f5f5f5\",yellow:\"#ffff00\",yellowgreen:\"#9acd32\"};var ia=\"backgroundColor borderTopColor borderRightColor borderBottomColor borderLeftColor color outlineColor\".split(\" \"),ja=/#([0-9a-fA-F])([0-9a-fA-F])([0-9a-fA-F])/,ka=/^#(?:[0-9a-f]{3}){1,2}$/i,la=/^(?:rgba)?\\((\\d{1,3}),\\s?(\\d{1,3}),\\s?(\\d{1,3}),\\s?(0|1|0\\.\\d*)\\)$/i,ma=/^(?:rgb)?\\((0|[1-9]\\d{0,2}),\\s?(0|[1-9]\\d{0,2}),\\s?(0|[1-9]\\d{0,2})\\)$/i;function m(a,b){this.code=a;this.a=p[a]||r;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(c){return c.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}ca(m,Error);var r=\"unknown error\",p={15:\"element not selectable\",11:\"element not visible\"};p[31]=r;p[30]=r;p[24]=\"invalid cookie domain\";p[29]=\"invalid element coordinates\";p[12]=\"invalid element state\";\np[32]=\"invalid selector\";p[51]=\"invalid selector\";p[52]=\"invalid selector\";p[17]=\"javascript error\";p[405]=\"unsupported operation\";p[34]=\"move target out of bounds\";p[27]=\"no such alert\";p[7]=\"no such element\";p[8]=\"no such frame\";p[23]=\"no such window\";p[28]=\"script timeout\";p[33]=\"session not created\";p[10]=\"stale element reference\";p[21]=\"timeout\";p[25]=\"unable to set cookie\";p[26]=\"unexpected alert open\";p[13]=r;p[9]=\"unknown command\";var u=String.prototype.trim?function(a){return a.trim()}:function(a){return/^[\\s\\xa0]*([\\s\\S]*?)[\\s\\xa0]*$/.exec(a)[1]};\nfunction na(a,b){var c=0;a=u(String(a)).split(\".\");b=u(String(b)).split(\".\");for(var e=Math.max(a.length,b.length),d=0;0==c&&d\u003Ce;d++){var f=a[d]||\"\",h=b[d]||\"\";do{f=/(\\d*)(\\D*)(.*)/.exec(f)||[\"\",\"\",\"\",\"\"];h=/(\\d*)(\\D*)(.*)/.exec(h)||[\"\",\"\",\"\",\"\"];if(0==f[0].length&&0==h[0].length)break;c=v(0==f[1].length?0:parseInt(f[1],10),0==h[1].length?0:parseInt(h[1],10))||v(0==f[2].length,0==h[2].length)||v(f[2],h[2]);f=f[3];h=h[3]}while(0==c)}return c}function v(a,b){return a\u003Cb?-1:a>b?1:0};var w;a:{var oa=g.navigator;if(oa){var sa=oa.userAgent;if(sa){w=sa;break a}}w=\"\"}function x(a){return-1!=w.indexOf(a)};function y(){return x(\"Firefox\")||x(\"FxiOS\")}function A(){return(x(\"Chrome\")||x(\"CriOS\"))&&!x(\"Edge\")};function ta(a){return String(a).replace(/\\-([a-z])/g,function(b,c){return c.toUpperCase()})};function B(){return x(\"iPhone\")&&!x(\"iPod\")&&!x(\"iPad\")};function ua(a,b){var c=va;return Object.prototype.hasOwnProperty.call(c,a)?c[a]:c[a]=b(a)};var wa=x(\"Opera\"),C=x(\"Trident\")||x(\"MSIE\"),xa=x(\"Edge\"),ya=x(\"Gecko\")&&!(-1!=w.toLowerCase().indexOf(\"webkit\")&&!x(\"Edge\"))&&!(x(\"Trident\")||x(\"MSIE\"))&&!x(\"Edge\"),za=-1!=w.toLowerCase().indexOf(\"webkit\")&&!x(\"Edge\");function Aa(){var a=g.document;return a?a.documentMode:void 0}var E;\na:{var F=\"\",G=function(){var a=w;if(ya)return/rv:([^\\);]+)(\\)|;)/.exec(a);if(xa)return/Edge\\/([\\d\\.]+)/.exec(a);if(C)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(za)return/WebKit\\/(\\S+)/.exec(a);if(wa)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();G&&(F=G?G[1]:\"\");if(C){var H=Aa();if(null!=H&&H>parseFloat(F)){E=String(H);break a}}E=F}var va={};function Ba(a){return ua(a,function(){return 0\u003C=na(E,a)})}var I;I=g.document&&C?Aa():void 0;var Ca=y(),Da=B()||x(\"iPod\"),Ea=x(\"iPad\"),Fa=x(\"Android\")&&!(A()||y()||x(\"Opera\")||x(\"Silk\")),Ga=A(),Ha=x(\"Safari\")&&!(A()||x(\"Coast\")||x(\"Opera\")||x(\"Edge\")||x(\"Edg/\")||x(\"OPR\")||y()||x(\"Silk\")||x(\"Android\"))&&!(B()||x(\"iPad\")||x(\"iPod\"));function J(a){return(a=a.exec(w))?a[1]:\"\"}(function(){if(Ca)return J(/Firefox\\/([0-9.]+)/);if(C||xa||wa)return E;if(Ga)return B()||x(\"iPad\")||x(\"iPod\")?J(/CriOS\\/([0-9.]+)/):J(/Chrome\\/([0-9.]+)/);if(Ha&&!(B()||x(\"iPad\")||x(\"iPod\")))return J(/Version\\/([0-9.]+)/);if(Da||Ea){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(w);if(a)return a[1]+\".\"+a[2]}else if(Fa)return(a=J(/Android\\s+([0-9.]+)/))?a:J(/Version\\/([0-9.]+)/);return\"\"})();var K;if(K=C)K=!(9\u003C=Number(I));var Ia=K;function L(a,b){this.x=void 0!==a?a:0;this.y=void 0!==b?b:0}L.prototype.ceil=function(){this.x=Math.ceil(this.x);this.y=Math.ceil(this.y);return this};L.prototype.floor=function(){this.x=Math.floor(this.x);this.y=Math.floor(this.y);return this};L.prototype.round=function(){this.x=Math.round(this.x);this.y=Math.round(this.y);return this};function M(a,b){this.width=a;this.height=b}M.prototype.aspectRatio=function(){return this.width/this.height};M.prototype.ceil=function(){this.width=Math.ceil(this.width);this.height=Math.ceil(this.height);return this};M.prototype.floor=function(){this.width=Math.floor(this.width);this.height=Math.floor(this.height);return this};M.prototype.round=function(){this.width=Math.round(this.width);this.height=Math.round(this.height);return this};function N(a){return 9==a.nodeType?a:a.ownerDocument||a.document}function Ja(a,b){a&&(a=a.parentNode);for(var c=0;a;){if(b(a))return a;a=a.parentNode;c++}return null}function Ka(a){this.a=a||g.document||document};function P(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)};function Q(a,b,c,e){this.f=a;this.a=b;this.b=c;this.c=e}Q.prototype.ceil=function(){this.f=Math.ceil(this.f);this.a=Math.ceil(this.a);this.b=Math.ceil(this.b);this.c=Math.ceil(this.c);return this};Q.prototype.floor=function(){this.f=Math.floor(this.f);this.a=Math.floor(this.a);this.b=Math.floor(this.b);this.c=Math.floor(this.c);return this};Q.prototype.round=function(){this.f=Math.round(this.f);this.a=Math.round(this.a);this.b=Math.round(this.b);this.c=Math.round(this.c);return this};function R(a,b,c,e){this.a=a;this.b=b;this.width=c;this.height=e}R.prototype.ceil=function(){this.a=Math.ceil(this.a);this.b=Math.ceil(this.b);this.width=Math.ceil(this.width);this.height=Math.ceil(this.height);return this};R.prototype.floor=function(){this.a=Math.floor(this.a);this.b=Math.floor(this.b);this.width=Math.floor(this.width);this.height=Math.floor(this.height);return this};\nR.prototype.round=function(){this.a=Math.round(this.a);this.b=Math.round(this.b);this.width=Math.round(this.width);this.height=Math.round(this.height);return this};var La=\"function\"===typeof ShadowRoot;function S(a){for(a=a.parentNode;a&&1!=a.nodeType&&9!=a.nodeType&&11!=a.nodeType;)a=a.parentNode;return P(a)?a:null}\nfunction T(a,b){b=ta(b);if(\"float\"==b||\"cssFloat\"==b||\"styleFloat\"==b)b=Ia?\"styleFloat\":\"cssFloat\";a:{var c=b;var e=N(a);if(e.defaultView&&e.defaultView.getComputedStyle&&(e=e.defaultView.getComputedStyle(a,null))){c=e[c]||e.getPropertyValue(c)||\"\";break a}c=\"\"}a=c||Ma(a,b);if(null===a)a=null;else if(0\u003C=da(ia,b)){b:{var d=a.match(la);if(d&&(b=Number(d[1]),c=Number(d[2]),e=Number(d[3]),d=Number(d[4]),0\u003C=b&&255>=b&&0\u003C=c&&255>=c&&0\u003C=e&&255>=e&&0\u003C=d&&1>=d)){b=[b,c,e,d];break b}b=null}if(!b)b:{if(e=a.match(ma))if(b=\nNumber(e[1]),c=Number(e[2]),e=Number(e[3]),0\u003C=b&&255>=b&&0\u003C=c&&255>=c&&0\u003C=e&&255>=e){b=[b,c,e,1];break b}b=null}if(!b)b:{b=a.toLowerCase();c=ha[b.toLowerCase()];if(!c&&(c=\"#\"==b.charAt(0)?b:\"#\"+b,4==c.length&&(c=c.replace(ja,\"#$1$1$2$2$3$3\")),!ka.test(c))){b=null;break b}b=[parseInt(c.substr(1,2),16),parseInt(c.substr(3,2),16),parseInt(c.substr(5,2),16),1]}a=b?\"rgba(\"+b.join(\", \")+\")\":a}return a}\nfunction Ma(a,b){var c=a.currentStyle||a.style,e=c[b];void 0===e&&\"function\"==aa(c.getPropertyValue)&&(e=c.getPropertyValue(b));return\"inherit\"!=e?void 0!==e?e:null:(a=S(a))?Ma(a,b):null}\nfunction U(a,b,c){function e(h){var n=V(h);return 0\u003Cn.height&&0\u003Cn.width?!0:P(h,\"PATH\")&&(0\u003Cn.height||0\u003Cn.width)?(h=T(h,\"stroke-width\"),!!h&&0\u003CparseInt(h,10)):\"hidden\"!=T(h,\"overflow\")&&ea(h.childNodes,function(D){return 3==D.nodeType||P(D)&&e(D)})}function d(h){return Na(h)==W&&fa(h.childNodes,function(n){return!P(n)||d(n)||!e(n)})}if(!P(a))throw Error(\"Argument to isShown must be of type Element\");if(P(a,\"BODY\"))return!0;if(P(a,\"OPTION\")||P(a,\"OPTGROUP\"))return a=Ja(a,function(h){return P(h,\"SELECT\")}),\n!!a&&U(a,!0,c);var f=Oa(a);if(f)return!!f.image&&0\u003Cf.rect.width&&0\u003Cf.rect.height&&U(f.image,b,c);if(P(a,\"INPUT\")&&\"hidden\"==a.type.toLowerCase()||P(a,\"NOSCRIPT\"))return!1;f=T(a,\"visibility\");return\"collapse\"!=f&&\"hidden\"!=f&&c(a)&&(b||0!=Pa(a))&&e(a)?!d(a):!1}var W=\"hidden\";\nfunction Na(a){function b(k){function l(ba){if(ba==h)return!0;var pa=T(ba,\"display\");return 0==pa.lastIndexOf(\"inline\",0)||\"contents\"==pa||\"absolute\"==qa&&\"static\"==T(ba,\"position\")?!1:!0}var qa=T(k,\"position\");if(\"fixed\"==qa)return ra=!0,k==h?null:h;for(k=S(k);k&&!l(k);)k=S(k);return k}function c(k){var l=k;if(\"visible\"==D)if(k==h&&n)l=n;else if(k==n)return{x:\"visible\",y:\"visible\"};l={x:T(l,\"overflow-x\"),y:T(l,\"overflow-y\")};k==h&&(l.x=\"visible\"==l.x?\"auto\":l.x,l.y=\"visible\"==l.y?\"auto\":l.y);return l}\nfunction e(k){if(k==h){var l=(new Ka(f)).a;k=l.scrollingElement?l.scrollingElement:za||\"CSS1Compat\"!=l.compatMode?l.body||l.documentElement:l.documentElement;l=l.parentWindow||l.defaultView;k=C&&Ba(\"10\")&&l.pageYOffset!=k.scrollTop?new L(k.scrollLeft,k.scrollTop):new L(l.pageXOffset||k.scrollLeft,l.pageYOffset||k.scrollTop)}else k=new L(k.scrollLeft,k.scrollTop);return k}var d=Qa(a),f=N(a),h=f.documentElement,n=f.body,D=T(h,\"overflow\"),ra;for(a=b(a);a;a=b(a)){var q=c(a);if(\"visible\"!=q.x||\"visible\"!=\nq.y){var t=V(a);if(0==t.width||0==t.height)return W;var z=d.a\u003Ct.a,O=d.b\u003Ct.b;if(z&&\"hidden\"==q.x||O&&\"hidden\"==q.y)return W;if(z&&\"visible\"!=q.x||O&&\"visible\"!=q.y){z=e(a);O=d.b\u003Ct.b-z.y;if(d.a\u003Ct.a-z.x&&\"visible\"!=q.x||O&&\"visible\"!=q.x)return W;d=Na(a);return d==W?W:\"scroll\"}z=d.c>=t.a+t.width;t=d.f>=t.b+t.height;if(z&&\"hidden\"==q.x||t&&\"hidden\"==q.y)return W;if(z&&\"visible\"!=q.x||t&&\"visible\"!=q.y){if(ra&&(q=e(a),d.c>=h.scrollWidth-q.x||d.a>=h.scrollHeight-q.y))return W;d=Na(a);return d==W?W:\"scroll\"}}}return\"none\"}\nfunction V(a){var b=Oa(a);if(b)return b.rect;if(P(a,\"HTML\"))return a=N(a),a=((a?a.parentWindow||a.defaultView:window)||window).document,a=\"CSS1Compat\"==a.compatMode?a.documentElement:a.body,a=new M(a.clientWidth,a.clientHeight),new R(0,0,a.width,a.height);try{var c=a.getBoundingClientRect()}catch(e){return new R(0,0,0,0)}b=new R(c.left,c.top,c.right-c.left,c.bottom-c.top);C&&a.ownerDocument.body&&(a=N(a),b.a-=a.documentElement.clientLeft+a.body.clientLeft,b.b-=a.documentElement.clientTop+a.body.clientTop);\nreturn b}\nfunction Oa(a){var b=P(a,\"MAP\");if(!b&&!P(a,\"AREA\"))return null;var c=b?a:P(a.parentNode,\"MAP\")?a.parentNode:null,e=null,d=null;if(c&&c.name){e='*[usemap=\"#'+c.name+'\"]';c=N(c);var f;if(f=\"function\"!=aa(c.querySelector)&&C&&(C?0\u003C=na(I,8):Ba(8))){f=c.querySelector;var h=typeof f;f=!(\"object\"==h&&null!=f||\"function\"==h)}if(f)throw Error(\"CSS selection is not supported\");if(!e)throw new m(32,\"No selector specified\");e=u(e);try{var n=c.querySelector(e)}catch(D){throw new m(32,\"An invalid or illegal selector was specified\");}if(e=\nn&&1==n.nodeType?n:null)d=V(e),b||\"default\"==a.shape.toLowerCase()||(a=Ra(a),b=Math.min(Math.max(a.a,0),d.width),n=Math.min(Math.max(a.b,0),d.height),d=new R(b+d.a,n+d.b,Math.min(a.width,d.width-b),Math.min(a.height,d.height-n)))}return{image:e,rect:d||new R(0,0,0,0)}}\nfunction Ra(a){var b=a.shape.toLowerCase();a=a.coords.split(\",\");if(\"rect\"==b&&4==a.length){b=a[0];var c=a[1];return new R(b,c,a[2]-b,a[3]-c)}if(\"circle\"==b&&3==a.length)return b=a[2],new R(a[0]-b,a[1]-b,2*b,2*b);if(\"poly\"==b&&2\u003Ca.length){b=a[0];c=a[1];for(var e=b,d=c,f=2;f+1\u003Ca.length;f+=2)b=Math.min(b,a[f]),e=Math.max(e,a[f]),c=Math.min(c,a[f+1]),d=Math.max(d,a[f+1]);return new R(b,c,e-b,d-c)}return new R(0,0,0,0)}function Qa(a){a=V(a);return new Q(a.b,a.a+a.width,a.b+a.height,a.a)}\nfunction Pa(a){if(Ia){if(\"relative\"==T(a,\"position\"))return 1;a=T(a,\"filter\");return(a=a.match(/^alpha\\(opacity=(\\d*)\\)/)||a.match(/^progid:DXImageTransform.Microsoft.Alpha\\(Opacity=(\\d*)\\)/))?Number(a[1])/100:1}return Sa(a)}function Sa(a){var b=1,c=T(a,\"opacity\");c&&(b=Number(c));(a=S(a))&&(b*=Sa(a));return b};function Ta(a,b){function c(e){if(P(e)&&\"none\"==T(e,\"display\"))return!1;var d;if((d=e.parentNode)&&d.shadowRoot&&void 0!==e.assignedSlot)d=e.assignedSlot?e.assignedSlot.parentNode:null;else if(e.getDestinationInsertionPoints){var f=e.getDestinationInsertionPoints();0\u003Cf.length&&(d=f[f.length-1])}if(La&&d instanceof ShadowRoot){if(d.host.shadowRoot&&d.host.shadowRoot!==d)return!1;d=d.host}return!d||9!=d.nodeType&&11!=d.nodeType?d&&P(d,\"DETAILS\")&&!d.open&&!P(e,\"SUMMARY\")?!1:!!d&&c(d):!0}return U(a,\n!!b,c)}var X=[\"_\"],Y=g;X[0]in Y||\"undefined\"==typeof Y.execScript||Y.execScript(\"var \"+X[0]);for(var Z;X.length&&(Z=X.shift());)X.length||void 0===Ta?Y[Z]&&Y[Z]!==Object.prototype[Z]?Y=Y[Z]:Y=Y[Z]={}:Y[Z]=Ta;; return this._.apply(null,arguments);}).apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1752820423.002][INFO]: Waiting for pending navigations...
+[1752820423.003][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.008][INFO]: Waiting for pending navigations...
+[1752820423.009][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.009][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE ExecuteScript true
+[1752820423.013][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND IsElementEnabled {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.299"
+}
+[1752820423.013][INFO]: Waiting for pending navigations...
+[1752820423.014][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.019][INFO]: Waiting for pending navigations...
+[1752820423.019][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.019][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE IsElementEnabled true
+[1752820423.022][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND ClickElement {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.299"
+}
+[1752820423.022][INFO]: Waiting for pending navigations...
+[1752820423.023][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.109][INFO]: Waiting for pending navigations...
+[1752820423.114][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.114][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE ClickElement
+[1752820423.122][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//span[contains(@id,'productRating')]/div"
+}
+[1752820423.122][INFO]: Waiting for pending navigations...
+[1752820423.123][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.134][INFO]: Waiting for pending navigations...
+[1752820423.135][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.135][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.301"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.302"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.303"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.304"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.305"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.306"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.307"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.308"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.309"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.310"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.311"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.312"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.313"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.314"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.315"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.316"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.317"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.318"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.319"
+}, "..." ]
+[1752820423.141][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//span[contains(@id,'productRating')]/div"
+}
+[1752820423.141][INFO]: Waiting for pending navigations...
+[1752820423.143][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.151][INFO]: Waiting for pending navigations...
+[1752820423.152][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.152][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.301"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.302"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.303"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.304"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.305"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.306"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.307"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.308"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.309"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.310"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.311"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.312"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.313"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.314"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.315"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.316"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.317"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.318"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.319"
+}, "..." ]
+[1752820423.160][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND GetElementText {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.301"
+}
+[1752820423.161][INFO]: Waiting for pending navigations...
+[1752820423.161][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.173][INFO]: Waiting for pending navigations...
+[1752820423.174][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.174][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE GetElementText "4.3"
+[1752820423.177][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//span[contains(@id,'productRating')]/div"
+}
+[1752820423.177][INFO]: Waiting for pending navigations...
+[1752820423.178][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.186][INFO]: Waiting for pending navigations...
+[1752820423.187][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.187][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.301"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.302"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.303"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.304"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.305"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.306"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.307"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.308"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.309"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.310"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.311"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.312"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.313"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.314"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.315"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.316"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.317"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.318"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.319"
+}, "..." ]
+[1752820423.191][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND GetElementText {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.302"
+}
+[1752820423.191][INFO]: Waiting for pending navigations...
+[1752820423.192][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.198][INFO]: Waiting for pending navigations...
+[1752820423.198][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.198][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE GetElementText "4.1"
+[1752820423.201][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//span[contains(@id,'productRating')]/div"
+}
+[1752820423.201][INFO]: Waiting for pending navigations...
+[1752820423.202][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.208][INFO]: Waiting for pending navigations...
+[1752820423.208][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.208][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.301"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.302"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.303"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.304"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.305"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.306"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.307"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.308"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.309"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.310"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.311"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.312"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.313"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.314"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.315"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.316"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.317"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.318"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.319"
+}, "..." ]
+[1752820423.213][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND GetElementText {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.303"
+}
+[1752820423.213][INFO]: Waiting for pending navigations...
+[1752820423.214][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.219][INFO]: Waiting for pending navigations...
+[1752820423.220][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.220][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE GetElementText "4.3"
+[1752820423.223][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//span[contains(@id,'productRating')]/div"
+}
+[1752820423.223][INFO]: Waiting for pending navigations...
+[1752820423.224][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.230][INFO]: Waiting for pending navigations...
+[1752820423.231][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.231][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.301"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.302"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.303"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.304"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.305"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.306"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.307"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.308"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.309"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.310"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.311"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.312"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.313"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.314"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.315"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.316"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.317"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.318"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.319"
+}, "..." ]
+[1752820423.235][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND GetElementText {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.304"
+}
+[1752820423.235][INFO]: Waiting for pending navigations...
+[1752820423.236][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.242][INFO]: Waiting for pending navigations...
+[1752820423.242][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.242][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE GetElementText "4.4"
+[1752820423.247][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//span[contains(@id,'productRating')]/div"
+}
+[1752820423.247][INFO]: Waiting for pending navigations...
+[1752820423.248][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.254][INFO]: Waiting for pending navigations...
+[1752820423.255][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.255][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.301"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.302"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.303"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.304"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.305"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.306"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.307"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.308"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.309"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.310"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.311"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.312"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.313"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.314"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.315"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.316"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.317"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.318"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.319"
+}, "..." ]
+[1752820423.258][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND GetElementText {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.305"
+}
+[1752820423.258][INFO]: Waiting for pending navigations...
+[1752820423.259][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.267][INFO]: Waiting for pending navigations...
+[1752820423.267][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.267][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE GetElementText "4.4"
+[1752820423.270][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//span[contains(@id,'productRating')]/div"
+}
+[1752820423.270][INFO]: Waiting for pending navigations...
+[1752820423.270][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.276][INFO]: Waiting for pending navigations...
+[1752820423.276][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.276][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.301"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.302"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.303"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.304"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.305"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.306"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.307"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.308"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.309"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.310"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.311"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.312"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.313"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.314"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.315"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.316"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.317"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.318"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.319"
+}, "..." ]
+[1752820423.280][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND GetElementText {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.306"
+}
+[1752820423.281][INFO]: Waiting for pending navigations...
+[1752820423.281][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.289][INFO]: Waiting for pending navigations...
+[1752820423.289][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.289][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE GetElementText "4.5"
+[1752820423.291][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//span[contains(@id,'productRating')]/div"
+}
+[1752820423.292][INFO]: Waiting for pending navigations...
+[1752820423.292][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.300][INFO]: Waiting for pending navigations...
+[1752820423.301][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.301][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.301"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.302"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.303"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.304"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.305"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.306"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.307"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.308"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.309"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.310"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.311"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.312"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.313"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.314"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.315"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.316"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.317"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.318"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.319"
+}, "..." ]
+[1752820423.306][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND GetElementText {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.307"
+}
+[1752820423.306][INFO]: Waiting for pending navigations...
+[1752820423.307][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.313][INFO]: Waiting for pending navigations...
+[1752820423.314][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.314][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE GetElementText "4.3"
+[1752820423.317][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//span[contains(@id,'productRating')]/div"
+}
+[1752820423.317][INFO]: Waiting for pending navigations...
+[1752820423.318][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.324][INFO]: Waiting for pending navigations...
+[1752820423.325][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.325][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.301"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.302"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.303"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.304"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.305"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.306"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.307"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.308"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.309"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.310"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.311"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.312"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.313"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.314"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.315"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.316"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.317"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.318"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.319"
+}, "..." ]
+[1752820423.328][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND GetElementText {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.308"
+}
+[1752820423.329][INFO]: Waiting for pending navigations...
+[1752820423.329][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.335][INFO]: Waiting for pending navigations...
+[1752820423.335][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.335][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE GetElementText "4.1"
+[1752820423.338][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//span[contains(@id,'productRating')]/div"
+}
+[1752820423.338][INFO]: Waiting for pending navigations...
+[1752820423.339][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.345][INFO]: Waiting for pending navigations...
+[1752820423.346][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.346][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.301"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.302"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.303"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.304"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.305"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.306"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.307"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.308"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.309"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.310"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.311"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.312"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.313"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.314"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.315"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.316"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.317"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.318"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.319"
+}, "..." ]
+[1752820423.349][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND GetElementText {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.309"
+}
+[1752820423.349][INFO]: Waiting for pending navigations...
+[1752820423.350][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.356][INFO]: Waiting for pending navigations...
+[1752820423.357][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.357][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE GetElementText "4.3"
+[1752820423.359][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//span[contains(@id,'productRating')]/div"
+}
+[1752820423.360][INFO]: Waiting for pending navigations...
+[1752820423.360][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.368][INFO]: Waiting for pending navigations...
+[1752820423.369][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.369][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.301"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.302"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.303"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.304"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.305"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.306"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.307"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.308"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.309"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.310"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.311"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.312"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.313"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.314"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.315"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.316"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.317"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.318"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.319"
+}, "..." ]
+[1752820423.372][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND GetElementText {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.310"
+}
+[1752820423.372][INFO]: Waiting for pending navigations...
+[1752820423.373][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.378][INFO]: Waiting for pending navigations...
+[1752820423.379][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.379][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE GetElementText "4.3"
+[1752820423.382][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//span[contains(@id,'productRating')]/div"
+}
+[1752820423.382][INFO]: Waiting for pending navigations...
+[1752820423.383][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.389][INFO]: Waiting for pending navigations...
+[1752820423.389][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.389][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.301"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.302"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.303"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.304"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.305"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.306"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.307"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.308"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.309"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.310"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.311"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.312"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.313"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.314"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.315"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.316"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.317"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.318"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.319"
+}, "..." ]
+[1752820423.392][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND GetElementText {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.311"
+}
+[1752820423.392][INFO]: Waiting for pending navigations...
+[1752820423.393][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.401][INFO]: Waiting for pending navigations...
+[1752820423.402][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.402][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE GetElementText "4.1"
+[1752820423.405][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//span[contains(@id,'productRating')]/div"
+}
+[1752820423.405][INFO]: Waiting for pending navigations...
+[1752820423.406][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.413][INFO]: Waiting for pending navigations...
+[1752820423.414][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.414][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.301"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.302"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.303"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.304"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.305"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.306"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.307"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.308"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.309"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.310"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.311"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.312"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.313"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.314"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.315"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.316"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.317"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.318"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.319"
+}, "..." ]
+[1752820423.417][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND GetElementText {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.312"
+}
+[1752820423.417][INFO]: Waiting for pending navigations...
+[1752820423.418][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.425][INFO]: Waiting for pending navigations...
+[1752820423.425][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.425][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE GetElementText "4.1"
+[1752820423.430][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//span[contains(@id,'productRating')]/div"
+}
+[1752820423.430][INFO]: Waiting for pending navigations...
+[1752820423.431][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.438][INFO]: Waiting for pending navigations...
+[1752820423.439][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.439][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.301"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.302"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.303"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.304"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.305"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.306"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.307"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.308"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.309"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.310"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.311"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.312"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.313"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.314"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.315"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.316"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.317"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.318"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.319"
+}, "..." ]
+[1752820423.446][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND GetElementText {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.313"
+}
+[1752820423.446][INFO]: Waiting for pending navigations...
+[1752820423.448][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.455][INFO]: Waiting for pending navigations...
+[1752820423.455][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.455][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE GetElementText "4.3"
+[1752820423.458][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//span[contains(@id,'productRating')]/div"
+}
+[1752820423.458][INFO]: Waiting for pending navigations...
+[1752820423.459][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.467][INFO]: Waiting for pending navigations...
+[1752820423.467][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.468][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.301"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.302"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.303"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.304"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.305"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.306"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.307"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.308"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.309"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.310"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.311"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.312"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.313"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.314"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.315"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.316"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.317"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.318"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.319"
+}, "..." ]
+[1752820423.470][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND GetElementText {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.314"
+}
+[1752820423.470][INFO]: Waiting for pending navigations...
+[1752820423.471][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.477][INFO]: Waiting for pending navigations...
+[1752820423.480][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.480][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE GetElementText "4.1"
+[1752820423.483][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//span[contains(@id,'productRating')]/div"
+}
+[1752820423.483][INFO]: Waiting for pending navigations...
+[1752820423.484][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.490][INFO]: Waiting for pending navigations...
+[1752820423.491][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.491][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.301"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.302"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.303"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.304"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.305"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.306"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.307"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.308"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.309"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.310"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.311"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.312"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.313"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.314"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.315"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.316"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.317"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.318"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.319"
+}, "..." ]
+[1752820423.494][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND GetElementText {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.315"
+}
+[1752820423.494][INFO]: Waiting for pending navigations...
+[1752820423.497][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.503][INFO]: Waiting for pending navigations...
+[1752820423.504][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.504][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE GetElementText "4.1"
+[1752820423.506][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//span[contains(@id,'productRating')]/div"
+}
+[1752820423.507][INFO]: Waiting for pending navigations...
+[1752820423.507][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.515][INFO]: Waiting for pending navigations...
+[1752820423.516][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.516][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.301"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.302"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.303"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.304"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.305"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.306"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.307"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.308"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.309"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.310"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.311"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.312"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.313"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.314"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.315"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.316"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.317"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.318"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.319"
+}, "..." ]
+[1752820423.519][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND GetElementText {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.316"
+}
+[1752820423.519][INFO]: Waiting for pending navigations...
+[1752820423.519][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.525][INFO]: Waiting for pending navigations...
+[1752820423.525][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.525][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE GetElementText "4.4"
+[1752820423.529][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//span[contains(@id,'productRating')]/div"
+}
+[1752820423.529][INFO]: Waiting for pending navigations...
+[1752820423.530][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.537][INFO]: Waiting for pending navigations...
+[1752820423.537][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.538][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.301"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.302"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.303"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.304"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.305"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.306"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.307"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.308"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.309"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.310"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.311"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.312"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.313"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.314"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.315"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.316"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.317"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.318"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.319"
+}, "..." ]
+[1752820423.541][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND GetElementText {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.317"
+}
+[1752820423.541][INFO]: Waiting for pending navigations...
+[1752820423.542][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.551][INFO]: Waiting for pending navigations...
+[1752820423.551][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.551][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE GetElementText "4"
+[1752820423.554][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//span[contains(@id,'productRating')]/div"
+}
+[1752820423.555][INFO]: Waiting for pending navigations...
+[1752820423.555][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.562][INFO]: Waiting for pending navigations...
+[1752820423.563][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.563][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.301"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.302"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.303"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.304"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.305"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.306"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.307"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.308"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.309"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.310"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.311"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.312"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.313"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.314"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.315"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.316"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.317"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.318"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.319"
+}, "..." ]
+[1752820423.567][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND GetElementText {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.318"
+}
+[1752820423.568][INFO]: Waiting for pending navigations...
+[1752820423.568][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.575][INFO]: Waiting for pending navigations...
+[1752820423.576][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.576][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE GetElementText "4.3"
+[1752820423.582][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//span[contains(@id,'productRating')]/div"
+}
+[1752820423.582][INFO]: Waiting for pending navigations...
+[1752820423.583][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.589][INFO]: Waiting for pending navigations...
+[1752820423.590][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.590][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.301"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.302"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.303"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.304"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.305"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.306"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.307"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.308"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.309"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.310"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.311"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.312"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.313"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.314"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.315"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.316"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.317"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.318"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.319"
+}, "..." ]
+[1752820423.593][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND GetElementText {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.319"
+}
+[1752820423.593][INFO]: Waiting for pending navigations...
+[1752820423.594][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.603][INFO]: Waiting for pending navigations...
+[1752820423.604][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.604][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE GetElementText "4.3"
+[1752820423.606][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//span[contains(@id,'productRating')]/div"
+}
+[1752820423.607][INFO]: Waiting for pending navigations...
+[1752820423.607][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.615][INFO]: Waiting for pending navigations...
+[1752820423.617][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.617][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.301"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.302"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.303"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.304"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.305"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.306"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.307"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.308"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.309"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.310"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.311"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.312"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.313"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.314"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.315"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.316"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.317"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.318"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.319"
+}, "..." ]
+[1752820423.621][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND GetElementText {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.320"
+}
+[1752820423.621][INFO]: Waiting for pending navigations...
+[1752820423.623][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.699][INFO]: Waiting for pending navigations...
+[1752820423.699][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.700][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE GetElementText ERROR stale element reference: stale element not found in the current frame
+  (Session info: chrome=138.0.7204.101)
+[1752820423.714][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//span[contains(@id,'productRating')]/div"
+}
+[1752820423.714][INFO]: Waiting for pending navigations...
+[1752820423.715][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.722][INFO]: Waiting for pending navigations...
+[1752820423.723][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.723][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.330"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.331"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.332"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.333"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.334"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.335"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.336"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.337"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.338"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.339"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.340"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.341"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.342"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.343"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.344"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.345"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.346"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.347"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.348"
+}, "..." ]
+[1752820423.726][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND GetElementText {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.350"
+}
+[1752820423.727][INFO]: Waiting for pending navigations...
+[1752820423.728][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.735][INFO]: Waiting for pending navigations...
+[1752820423.735][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.735][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE GetElementText "4.2"
+[1752820423.737][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//span[contains(@id,'productRating')]/div"
+}
+[1752820423.737][INFO]: Waiting for pending navigations...
+[1752820423.738][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.746][INFO]: Waiting for pending navigations...
+[1752820423.747][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.747][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.330"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.331"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.332"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.333"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.334"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.335"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.336"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.337"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.338"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.339"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.340"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.341"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.342"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.343"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.344"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.345"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.346"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.347"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.348"
+}, "..." ]
+[1752820423.750][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND GetElementText {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.351"
+}
+[1752820423.750][INFO]: Waiting for pending navigations...
+[1752820423.751][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.757][INFO]: Waiting for pending navigations...
+[1752820423.757][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.758][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE GetElementText "4.3"
+[1752820423.761][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//span[contains(@id,'productRating')]/div"
+}
+[1752820423.761][INFO]: Waiting for pending navigations...
+[1752820423.762][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.769][INFO]: Waiting for pending navigations...
+[1752820423.769][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.770][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.330"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.331"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.332"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.333"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.334"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.335"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.336"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.337"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.338"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.339"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.340"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.341"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.342"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.343"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.344"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.345"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.346"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.347"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.348"
+}, "..." ]
+[1752820423.772][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND GetElementText {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.352"
+}
+[1752820423.772][INFO]: Waiting for pending navigations...
+[1752820423.773][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.780][INFO]: Waiting for pending navigations...
+[1752820423.781][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.781][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE GetElementText "4.3"
+[1752820423.784][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//span[contains(@id,'productRating')]/div"
+}
+[1752820423.784][INFO]: Waiting for pending navigations...
+[1752820423.785][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.792][INFO]: Waiting for pending navigations...
+[1752820423.793][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.793][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.330"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.331"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.332"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.333"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.334"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.335"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.336"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.337"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.338"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.339"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.340"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.341"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.342"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.343"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.344"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.345"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.346"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.347"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.348"
+}, "..." ]
+[1752820423.796][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND GetElementText {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.DBA336A7BDF8F14D7DA95E8DE40ED3A2.e.353"
+}
+[1752820423.796][INFO]: Waiting for pending navigations...
+[1752820423.797][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.805][INFO]: Waiting for pending navigations...
+[1752820423.810][INFO]: Done waiting for pending navigations. Status: ok
+[1752820423.810][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE GetElementText "4.3"
+[1752820423.834][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND Navigate {
+   "url": "https://www.flipkart.com/"
+}
+[1752820423.834][INFO]: Waiting for pending navigations...
+[1752820423.851][INFO]: Done waiting for pending navigations. Status: ok
+[1752820424.344][INFO]: Waiting for pending navigations...
+[1752820425.202][INFO]: Done waiting for pending navigations. Status: ok
+[1752820425.202][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE Navigate
+[1752820425.206][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@name='q']"
+}
+[1752820425.206][INFO]: Waiting for pending navigations...
+[1752820425.226][INFO]: Done waiting for pending navigations. Status: ok
+[1752820425.270][INFO]: Waiting for pending navigations...
+[1752820425.273][INFO]: Done waiting for pending navigations. Status: ok
+[1752820425.273][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.3C275562C895E76E27DF61C1F52862DC.e.444"
+}
+[1752820425.277][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.3C275562C895E76E27DF61C1F52862DC.e.444"
+   } ],
+   "script": "/* isDisplayed */return (function(){return (function(){var g=this||self;\nfunction aa(a){var b=typeof a;if(\"object\"==b)if(a){if(a instanceof Array)return\"array\";if(a instanceof Object)return b;var c=Object.prototype.toString.call(a);if(\"[object Window]\"==c)return\"object\";if(\"[object Array]\"==c||\"number\"==typeof a.length&&\"undefined\"!=typeof a.splice&&\"undefined\"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable(\"splice\"))return\"array\";if(\"[object Function]\"==c||\"undefined\"!=typeof a.call&&\"undefined\"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable(\"call\"))return\"function\"}else return\"null\";else if(\"function\"==\nb&&\"undefined\"==typeof a.call)return\"object\";return b}function ca(a,b){function c(){}c.prototype=b.prototype;a.prototype=new c;a.prototype.constructor=a};var da=Array.prototype.indexOf?function(a,b){return Array.prototype.indexOf.call(a,b,void 0)}:function(a,b){if(\"string\"===typeof a)return\"string\"!==typeof b||1!=b.length?-1:a.indexOf(b,0);for(var c=0;c\u003Ca.length;c++)if(c in a&&a[c]===b)return c;return-1},ea=Array.prototype.some?function(a,b){return Array.prototype.some.call(a,b,void 0)}:function(a,b){for(var c=a.length,e=\"string\"===typeof a?a.split(\"\"):a,d=0;d\u003Cc;d++)if(d in e&&b.call(void 0,e[d],d,a))return!0;return!1},fa=Array.prototype.every?function(a,\nb){return Array.prototype.every.call(a,b,void 0)}:function(a,b){for(var c=a.length,e=\"string\"===typeof a?a.split(\"\"):a,d=0;d\u003Cc;d++)if(d in e&&!b.call(void 0,e[d],d,a))return!1;return!0};var ha={aliceblue:\"#f0f8ff\",antiquewhite:\"#faebd7\",aqua:\"#00ffff\",aquamarine:\"#7fffd4\",azure:\"#f0ffff\",beige:\"#f5f5dc\",bisque:\"#ffe4c4\",black:\"#000000\",blanchedalmond:\"#ffebcd\",blue:\"#0000ff\",blueviolet:\"#8a2be2\",brown:\"#a52a2a\",burlywood:\"#deb887\",cadetblue:\"#5f9ea0\",chartreuse:\"#7fff00\",chocolate:\"#d2691e\",coral:\"#ff7f50\",cornflowerblue:\"#6495ed\",cornsilk:\"#fff8dc\",crimson:\"#dc143c\",cyan:\"#00ffff\",darkblue:\"#00008b\",darkcyan:\"#008b8b\",darkgoldenrod:\"#b8860b\",darkgray:\"#a9a9a9\",darkgreen:\"#006400\",\ndarkgrey:\"#a9a9a9\",darkkhaki:\"#bdb76b\",darkmagenta:\"#8b008b\",darkolivegreen:\"#556b2f\",darkorange:\"#ff8c00\",darkorchid:\"#9932cc\",darkred:\"#8b0000\",darksalmon:\"#e9967a\",darkseagreen:\"#8fbc8f\",darkslateblue:\"#483d8b\",darkslategray:\"#2f4f4f\",darkslategrey:\"#2f4f4f\",darkturquoise:\"#00ced1\",darkviolet:\"#9400d3\",deeppink:\"#ff1493\",deepskyblue:\"#00bfff\",dimgray:\"#696969\",dimgrey:\"#696969\",dodgerblue:\"#1e90ff\",firebrick:\"#b22222\",floralwhite:\"#fffaf0\",forestgreen:\"#228b22\",fuchsia:\"#ff00ff\",gainsboro:\"#dcdcdc\",\nghostwhite:\"#f8f8ff\",gold:\"#ffd700\",goldenrod:\"#daa520\",gray:\"#808080\",green:\"#008000\",greenyellow:\"#adff2f\",grey:\"#808080\",honeydew:\"#f0fff0\",hotpink:\"#ff69b4\",indianred:\"#cd5c5c\",indigo:\"#4b0082\",ivory:\"#fffff0\",khaki:\"#f0e68c\",lavender:\"#e6e6fa\",lavenderblush:\"#fff0f5\",lawngreen:\"#7cfc00\",lemonchiffon:\"#fffacd\",lightblue:\"#add8e6\",lightcoral:\"#f08080\",lightcyan:\"#e0ffff\",lightgoldenrodyellow:\"#fafad2\",lightgray:\"#d3d3d3\",lightgreen:\"#90ee90\",lightgrey:\"#d3d3d3\",lightpink:\"#ffb6c1\",lightsalmon:\"#ffa07a\",\nlightseagreen:\"#20b2aa\",lightskyblue:\"#87cefa\",lightslategray:\"#778899\",lightslategrey:\"#778899\",lightsteelblue:\"#b0c4de\",lightyellow:\"#ffffe0\",lime:\"#00ff00\",limegreen:\"#32cd32\",linen:\"#faf0e6\",magenta:\"#ff00ff\",maroon:\"#800000\",mediumaquamarine:\"#66cdaa\",mediumblue:\"#0000cd\",mediumorchid:\"#ba55d3\",mediumpurple:\"#9370db\",mediumseagreen:\"#3cb371\",mediumslateblue:\"#7b68ee\",mediumspringgreen:\"#00fa9a\",mediumturquoise:\"#48d1cc\",mediumvioletred:\"#c71585\",midnightblue:\"#191970\",mintcream:\"#f5fffa\",mistyrose:\"#ffe4e1\",\nmoccasin:\"#ffe4b5\",navajowhite:\"#ffdead\",navy:\"#000080\",oldlace:\"#fdf5e6\",olive:\"#808000\",olivedrab:\"#6b8e23\",orange:\"#ffa500\",orangered:\"#ff4500\",orchid:\"#da70d6\",palegoldenrod:\"#eee8aa\",palegreen:\"#98fb98\",paleturquoise:\"#afeeee\",palevioletred:\"#db7093\",papayawhip:\"#ffefd5\",peachpuff:\"#ffdab9\",peru:\"#cd853f\",pink:\"#ffc0cb\",plum:\"#dda0dd\",powderblue:\"#b0e0e6\",purple:\"#800080\",red:\"#ff0000\",rosybrown:\"#bc8f8f\",royalblue:\"#4169e1\",saddlebrown:\"#8b4513\",salmon:\"#fa8072\",sandybrown:\"#f4a460\",seagreen:\"#2e8b57\",\nseashell:\"#fff5ee\",sienna:\"#a0522d\",silver:\"#c0c0c0\",skyblue:\"#87ceeb\",slateblue:\"#6a5acd\",slategray:\"#708090\",slategrey:\"#708090\",snow:\"#fffafa\",springgreen:\"#00ff7f\",steelblue:\"#4682b4\",tan:\"#d2b48c\",teal:\"#008080\",thistle:\"#d8bfd8\",tomato:\"#ff6347\",turquoise:\"#40e0d0\",violet:\"#ee82ee\",wheat:\"#f5deb3\",white:\"#ffffff\",whitesmoke:\"#f5f5f5\",yellow:\"#ffff00\",yellowgreen:\"#9acd32\"};var ia=\"backgroundColor borderTopColor borderRightColor borderBottomColor borderLeftColor color outlineColor\".split(\" \"),ja=/#([0-9a-fA-F])([0-9a-fA-F])([0-9a-fA-F])/,ka=/^#(?:[0-9a-f]{3}){1,2}$/i,la=/^(?:rgba)?\\((\\d{1,3}),\\s?(\\d{1,3}),\\s?(\\d{1,3}),\\s?(0|1|0\\.\\d*)\\)$/i,ma=/^(?:rgb)?\\((0|[1-9]\\d{0,2}),\\s?(0|[1-9]\\d{0,2}),\\s?(0|[1-9]\\d{0,2})\\)$/i;function m(a,b){this.code=a;this.a=p[a]||r;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(c){return c.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}ca(m,Error);var r=\"unknown error\",p={15:\"element not selectable\",11:\"element not visible\"};p[31]=r;p[30]=r;p[24]=\"invalid cookie domain\";p[29]=\"invalid element coordinates\";p[12]=\"invalid element state\";\np[32]=\"invalid selector\";p[51]=\"invalid selector\";p[52]=\"invalid selector\";p[17]=\"javascript error\";p[405]=\"unsupported operation\";p[34]=\"move target out of bounds\";p[27]=\"no such alert\";p[7]=\"no such element\";p[8]=\"no such frame\";p[23]=\"no such window\";p[28]=\"script timeout\";p[33]=\"session not created\";p[10]=\"stale element reference\";p[21]=\"timeout\";p[25]=\"unable to set cookie\";p[26]=\"unexpected alert open\";p[13]=r;p[9]=\"unknown command\";var u=String.prototype.trim?function(a){return a.trim()}:function(a){return/^[\\s\\xa0]*([\\s\\S]*?)[\\s\\xa0]*$/.exec(a)[1]};\nfunction na(a,b){var c=0;a=u(String(a)).split(\".\");b=u(String(b)).split(\".\");for(var e=Math.max(a.length,b.length),d=0;0==c&&d\u003Ce;d++){var f=a[d]||\"\",h=b[d]||\"\";do{f=/(\\d*)(\\D*)(.*)/.exec(f)||[\"\",\"\",\"\",\"\"];h=/(\\d*)(\\D*)(.*)/.exec(h)||[\"\",\"\",\"\",\"\"];if(0==f[0].length&&0==h[0].length)break;c=v(0==f[1].length?0:parseInt(f[1],10),0==h[1].length?0:parseInt(h[1],10))||v(0==f[2].length,0==h[2].length)||v(f[2],h[2]);f=f[3];h=h[3]}while(0==c)}return c}function v(a,b){return a\u003Cb?-1:a>b?1:0};var w;a:{var oa=g.navigator;if(oa){var sa=oa.userAgent;if(sa){w=sa;break a}}w=\"\"}function x(a){return-1!=w.indexOf(a)};function y(){return x(\"Firefox\")||x(\"FxiOS\")}function A(){return(x(\"Chrome\")||x(\"CriOS\"))&&!x(\"Edge\")};function ta(a){return String(a).replace(/\\-([a-z])/g,function(b,c){return c.toUpperCase()})};function B(){return x(\"iPhone\")&&!x(\"iPod\")&&!x(\"iPad\")};function ua(a,b){var c=va;return Object.prototype.hasOwnProperty.call(c,a)?c[a]:c[a]=b(a)};var wa=x(\"Opera\"),C=x(\"Trident\")||x(\"MSIE\"),xa=x(\"Edge\"),ya=x(\"Gecko\")&&!(-1!=w.toLowerCase().indexOf(\"webkit\")&&!x(\"Edge\"))&&!(x(\"Trident\")||x(\"MSIE\"))&&!x(\"Edge\"),za=-1!=w.toLowerCase().indexOf(\"webkit\")&&!x(\"Edge\");function Aa(){var a=g.document;return a?a.documentMode:void 0}var E;\na:{var F=\"\",G=function(){var a=w;if(ya)return/rv:([^\\);]+)(\\)|;)/.exec(a);if(xa)return/Edge\\/([\\d\\.]+)/.exec(a);if(C)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(za)return/WebKit\\/(\\S+)/.exec(a);if(wa)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();G&&(F=G?G[1]:\"\");if(C){var H=Aa();if(null!=H&&H>parseFloat(F)){E=String(H);break a}}E=F}var va={};function Ba(a){return ua(a,function(){return 0\u003C=na(E,a)})}var I;I=g.document&&C?Aa():void 0;var Ca=y(),Da=B()||x(\"iPod\"),Ea=x(\"iPad\"),Fa=x(\"Android\")&&!(A()||y()||x(\"Opera\")||x(\"Silk\")),Ga=A(),Ha=x(\"Safari\")&&!(A()||x(\"Coast\")||x(\"Opera\")||x(\"Edge\")||x(\"Edg/\")||x(\"OPR\")||y()||x(\"Silk\")||x(\"Android\"))&&!(B()||x(\"iPad\")||x(\"iPod\"));function J(a){return(a=a.exec(w))?a[1]:\"\"}(function(){if(Ca)return J(/Firefox\\/([0-9.]+)/);if(C||xa||wa)return E;if(Ga)return B()||x(\"iPad\")||x(\"iPod\")?J(/CriOS\\/([0-9.]+)/):J(/Chrome\\/([0-9.]+)/);if(Ha&&!(B()||x(\"iPad\")||x(\"iPod\")))return J(/Version\\/([0-9.]+)/);if(Da||Ea){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(w);if(a)return a[1]+\".\"+a[2]}else if(Fa)return(a=J(/Android\\s+([0-9.]+)/))?a:J(/Version\\/([0-9.]+)/);return\"\"})();var K;if(K=C)K=!(9\u003C=Number(I));var Ia=K;function L(a,b){this.x=void 0!==a?a:0;this.y=void 0!==b?b:0}L.prototype.ceil=function(){this.x=Math.ceil(this.x);this.y=Math.ceil(this.y);return this};L.prototype.floor=function(){this.x=Math.floor(this.x);this.y=Math.floor(this.y);return this};L.prototype.round=function(){this.x=Math.round(this.x);this.y=Math.round(this.y);return this};function M(a,b){this.width=a;this.height=b}M.prototype.aspectRatio=function(){return this.width/this.height};M.prototype.ceil=function(){this.width=Math.ceil(this.width);this.height=Math.ceil(this.height);return this};M.prototype.floor=function(){this.width=Math.floor(this.width);this.height=Math.floor(this.height);return this};M.prototype.round=function(){this.width=Math.round(this.width);this.height=Math.round(this.height);return this};function N(a){return 9==a.nodeType?a:a.ownerDocument||a.document}function Ja(a,b){a&&(a=a.parentNode);for(var c=0;a;){if(b(a))return a;a=a.parentNode;c++}return null}function Ka(a){this.a=a||g.document||document};function P(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)};function Q(a,b,c,e){this.f=a;this.a=b;this.b=c;this.c=e}Q.prototype.ceil=function(){this.f=Math.ceil(this.f);this.a=Math.ceil(this.a);this.b=Math.ceil(this.b);this.c=Math.ceil(this.c);return this};Q.prototype.floor=function(){this.f=Math.floor(this.f);this.a=Math.floor(this.a);this.b=Math.floor(this.b);this.c=Math.floor(this.c);return this};Q.prototype.round=function(){this.f=Math.round(this.f);this.a=Math.round(this.a);this.b=Math.round(this.b);this.c=Math.round(this.c);return this};function R(a,b,c,e){this.a=a;this.b=b;this.width=c;this.height=e}R.prototype.ceil=function(){this.a=Math.ceil(this.a);this.b=Math.ceil(this.b);this.width=Math.ceil(this.width);this.height=Math.ceil(this.height);return this};R.prototype.floor=function(){this.a=Math.floor(this.a);this.b=Math.floor(this.b);this.width=Math.floor(this.width);this.height=Math.floor(this.height);return this};\nR.prototype.round=function(){this.a=Math.round(this.a);this.b=Math.round(this.b);this.width=Math.round(this.width);this.height=Math.round(this.height);return this};var La=\"function\"===typeof ShadowRoot;function S(a){for(a=a.parentNode;a&&1!=a.nodeType&&9!=a.nodeType&&11!=a.nodeType;)a=a.parentNode;return P(a)?a:null}\nfunction T(a,b){b=ta(b);if(\"float\"==b||\"cssFloat\"==b||\"styleFloat\"==b)b=Ia?\"styleFloat\":\"cssFloat\";a:{var c=b;var e=N(a);if(e.defaultView&&e.defaultView.getComputedStyle&&(e=e.defaultView.getComputedStyle(a,null))){c=e[c]||e.getPropertyValue(c)||\"\";break a}c=\"\"}a=c||Ma(a,b);if(null===a)a=null;else if(0\u003C=da(ia,b)){b:{var d=a.match(la);if(d&&(b=Number(d[1]),c=Number(d[2]),e=Number(d[3]),d=Number(d[4]),0\u003C=b&&255>=b&&0\u003C=c&&255>=c&&0\u003C=e&&255>=e&&0\u003C=d&&1>=d)){b=[b,c,e,d];break b}b=null}if(!b)b:{if(e=a.match(ma))if(b=\nNumber(e[1]),c=Number(e[2]),e=Number(e[3]),0\u003C=b&&255>=b&&0\u003C=c&&255>=c&&0\u003C=e&&255>=e){b=[b,c,e,1];break b}b=null}if(!b)b:{b=a.toLowerCase();c=ha[b.toLowerCase()];if(!c&&(c=\"#\"==b.charAt(0)?b:\"#\"+b,4==c.length&&(c=c.replace(ja,\"#$1$1$2$2$3$3\")),!ka.test(c))){b=null;break b}b=[parseInt(c.substr(1,2),16),parseInt(c.substr(3,2),16),parseInt(c.substr(5,2),16),1]}a=b?\"rgba(\"+b.join(\", \")+\")\":a}return a}\nfunction Ma(a,b){var c=a.currentStyle||a.style,e=c[b];void 0===e&&\"function\"==aa(c.getPropertyValue)&&(e=c.getPropertyValue(b));return\"inherit\"!=e?void 0!==e?e:null:(a=S(a))?Ma(a,b):null}\nfunction U(a,b,c){function e(h){var n=V(h);return 0\u003Cn.height&&0\u003Cn.width?!0:P(h,\"PATH\")&&(0\u003Cn.height||0\u003Cn.width)?(h=T(h,\"stroke-width\"),!!h&&0\u003CparseInt(h,10)):\"hidden\"!=T(h,\"overflow\")&&ea(h.childNodes,function(D){return 3==D.nodeType||P(D)&&e(D)})}function d(h){return Na(h)==W&&fa(h.childNodes,function(n){return!P(n)||d(n)||!e(n)})}if(!P(a))throw Error(\"Argument to isShown must be of type Element\");if(P(a,\"BODY\"))return!0;if(P(a,\"OPTION\")||P(a,\"OPTGROUP\"))return a=Ja(a,function(h){return P(h,\"SELECT\")}),\n!!a&&U(a,!0,c);var f=Oa(a);if(f)return!!f.image&&0\u003Cf.rect.width&&0\u003Cf.rect.height&&U(f.image,b,c);if(P(a,\"INPUT\")&&\"hidden\"==a.type.toLowerCase()||P(a,\"NOSCRIPT\"))return!1;f=T(a,\"visibility\");return\"collapse\"!=f&&\"hidden\"!=f&&c(a)&&(b||0!=Pa(a))&&e(a)?!d(a):!1}var W=\"hidden\";\nfunction Na(a){function b(k){function l(ba){if(ba==h)return!0;var pa=T(ba,\"display\");return 0==pa.lastIndexOf(\"inline\",0)||\"contents\"==pa||\"absolute\"==qa&&\"static\"==T(ba,\"position\")?!1:!0}var qa=T(k,\"position\");if(\"fixed\"==qa)return ra=!0,k==h?null:h;for(k=S(k);k&&!l(k);)k=S(k);return k}function c(k){var l=k;if(\"visible\"==D)if(k==h&&n)l=n;else if(k==n)return{x:\"visible\",y:\"visible\"};l={x:T(l,\"overflow-x\"),y:T(l,\"overflow-y\")};k==h&&(l.x=\"visible\"==l.x?\"auto\":l.x,l.y=\"visible\"==l.y?\"auto\":l.y);return l}\nfunction e(k){if(k==h){var l=(new Ka(f)).a;k=l.scrollingElement?l.scrollingElement:za||\"CSS1Compat\"!=l.compatMode?l.body||l.documentElement:l.documentElement;l=l.parentWindow||l.defaultView;k=C&&Ba(\"10\")&&l.pageYOffset!=k.scrollTop?new L(k.scrollLeft,k.scrollTop):new L(l.pageXOffset||k.scrollLeft,l.pageYOffset||k.scrollTop)}else k=new L(k.scrollLeft,k.scrollTop);return k}var d=Qa(a),f=N(a),h=f.documentElement,n=f.body,D=T(h,\"overflow\"),ra;for(a=b(a);a;a=b(a)){var q=c(a);if(\"visible\"!=q.x||\"visible\"!=\nq.y){var t=V(a);if(0==t.width||0==t.height)return W;var z=d.a\u003Ct.a,O=d.b\u003Ct.b;if(z&&\"hidden\"==q.x||O&&\"hidden\"==q.y)return W;if(z&&\"visible\"!=q.x||O&&\"visible\"!=q.y){z=e(a);O=d.b\u003Ct.b-z.y;if(d.a\u003Ct.a-z.x&&\"visible\"!=q.x||O&&\"visible\"!=q.x)return W;d=Na(a);return d==W?W:\"scroll\"}z=d.c>=t.a+t.width;t=d.f>=t.b+t.height;if(z&&\"hidden\"==q.x||t&&\"hidden\"==q.y)return W;if(z&&\"visible\"!=q.x||t&&\"visible\"!=q.y){if(ra&&(q=e(a),d.c>=h.scrollWidth-q.x||d.a>=h.scrollHeight-q.y))return W;d=Na(a);return d==W?W:\"scroll\"}}}return\"none\"}\nfunction V(a){var b=Oa(a);if(b)return b.rect;if(P(a,\"HTML\"))return a=N(a),a=((a?a.parentWindow||a.defaultView:window)||window).document,a=\"CSS1Compat\"==a.compatMode?a.documentElement:a.body,a=new M(a.clientWidth,a.clientHeight),new R(0,0,a.width,a.height);try{var c=a.getBoundingClientRect()}catch(e){return new R(0,0,0,0)}b=new R(c.left,c.top,c.right-c.left,c.bottom-c.top);C&&a.ownerDocument.body&&(a=N(a),b.a-=a.documentElement.clientLeft+a.body.clientLeft,b.b-=a.documentElement.clientTop+a.body.clientTop);\nreturn b}\nfunction Oa(a){var b=P(a,\"MAP\");if(!b&&!P(a,\"AREA\"))return null;var c=b?a:P(a.parentNode,\"MAP\")?a.parentNode:null,e=null,d=null;if(c&&c.name){e='*[usemap=\"#'+c.name+'\"]';c=N(c);var f;if(f=\"function\"!=aa(c.querySelector)&&C&&(C?0\u003C=na(I,8):Ba(8))){f=c.querySelector;var h=typeof f;f=!(\"object\"==h&&null!=f||\"function\"==h)}if(f)throw Error(\"CSS selection is not supported\");if(!e)throw new m(32,\"No selector specified\");e=u(e);try{var n=c.querySelector(e)}catch(D){throw new m(32,\"An invalid or illegal selector was specified\");}if(e=\nn&&1==n.nodeType?n:null)d=V(e),b||\"default\"==a.shape.toLowerCase()||(a=Ra(a),b=Math.min(Math.max(a.a,0),d.width),n=Math.min(Math.max(a.b,0),d.height),d=new R(b+d.a,n+d.b,Math.min(a.width,d.width-b),Math.min(a.height,d.height-n)))}return{image:e,rect:d||new R(0,0,0,0)}}\nfunction Ra(a){var b=a.shape.toLowerCase();a=a.coords.split(\",\");if(\"rect\"==b&&4==a.length){b=a[0];var c=a[1];return new R(b,c,a[2]-b,a[3]-c)}if(\"circle\"==b&&3==a.length)return b=a[2],new R(a[0]-b,a[1]-b,2*b,2*b);if(\"poly\"==b&&2\u003Ca.length){b=a[0];c=a[1];for(var e=b,d=c,f=2;f+1\u003Ca.length;f+=2)b=Math.min(b,a[f]),e=Math.max(e,a[f]),c=Math.min(c,a[f+1]),d=Math.max(d,a[f+1]);return new R(b,c,e-b,d-c)}return new R(0,0,0,0)}function Qa(a){a=V(a);return new Q(a.b,a.a+a.width,a.b+a.height,a.a)}\nfunction Pa(a){if(Ia){if(\"relative\"==T(a,\"position\"))return 1;a=T(a,\"filter\");return(a=a.match(/^alpha\\(opacity=(\\d*)\\)/)||a.match(/^progid:DXImageTransform.Microsoft.Alpha\\(Opacity=(\\d*)\\)/))?Number(a[1])/100:1}return Sa(a)}function Sa(a){var b=1,c=T(a,\"opacity\");c&&(b=Number(c));(a=S(a))&&(b*=Sa(a));return b};function Ta(a,b){function c(e){if(P(e)&&\"none\"==T(e,\"display\"))return!1;var d;if((d=e.parentNode)&&d.shadowRoot&&void 0!==e.assignedSlot)d=e.assignedSlot?e.assignedSlot.parentNode:null;else if(e.getDestinationInsertionPoints){var f=e.getDestinationInsertionPoints();0\u003Cf.length&&(d=f[f.length-1])}if(La&&d instanceof ShadowRoot){if(d.host.shadowRoot&&d.host.shadowRoot!==d)return!1;d=d.host}return!d||9!=d.nodeType&&11!=d.nodeType?d&&P(d,\"DETAILS\")&&!d.open&&!P(e,\"SUMMARY\")?!1:!!d&&c(d):!0}return U(a,\n!!b,c)}var X=[\"_\"],Y=g;X[0]in Y||\"undefined\"==typeof Y.execScript||Y.execScript(\"var \"+X[0]);for(var Z;X.length&&(Z=X.shift());)X.length||void 0===Ta?Y[Z]&&Y[Z]!==Object.prototype[Z]?Y=Y[Z]:Y=Y[Z]={}:Y[Z]=Ta;; return this._.apply(null,arguments);}).apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1752820425.278][INFO]: Waiting for pending navigations...
+[1752820425.279][INFO]: Done waiting for pending navigations. Status: ok
+[1752820425.296][INFO]: Waiting for pending navigations...
+[1752820425.298][INFO]: Done waiting for pending navigations. Status: ok
+[1752820425.298][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE ExecuteScript true
+[1752820425.303][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@name='q']"
+}
+[1752820425.304][INFO]: Waiting for pending navigations...
+[1752820425.317][INFO]: Done waiting for pending navigations. Status: ok
+[1752820425.338][INFO]: Waiting for pending navigations...
+[1752820425.343][INFO]: Done waiting for pending navigations. Status: ok
+[1752820425.343][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.3C275562C895E76E27DF61C1F52862DC.e.444"
+}
+[1752820425.350][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND ClearElement {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.3C275562C895E76E27DF61C1F52862DC.e.444"
+}
+[1752820425.350][INFO]: Waiting for pending navigations...
+[1752820425.353][INFO]: Done waiting for pending navigations. Status: ok
+[1752820425.381][INFO]: Waiting for pending navigations...
+[1752820425.383][INFO]: Done waiting for pending navigations. Status: ok
+[1752820425.383][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE ClearElement
+[1752820425.386][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND TypeElement {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.3C275562C895E76E27DF61C1F52862DC.e.444",
+   "text": "iPhone",
+   "value": [ "i", "P", "h", "o", "n", "e" ]
+}
+[1752820425.386][INFO]: Waiting for pending navigations...
+[1752820425.387][INFO]: Done waiting for pending navigations. Status: ok
+[1752820425.467][INFO]: Waiting for pending navigations...
+[1752820425.473][INFO]: Done waiting for pending navigations. Status: ok
+[1752820425.473][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE TypeElement
+[1752820425.475][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND TypeElement {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.3C275562C895E76E27DF61C1F52862DC.e.444",
+   "text": "",
+   "value": [ "" ]
+}
+[1752820425.476][INFO]: Waiting for pending navigations...
+[1752820425.476][INFO]: Done waiting for pending navigations. Status: ok
+[1752820425.522][INFO]: Waiting for pending navigations...
+[1752820427.265][INFO]: Done waiting for pending navigations. Status: ok
+[1752820427.265][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE TypeElement
+[1752820432.279][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='tUxRFH']//div[@class='UkUFwK']/span"
+}
+[1752820432.279][INFO]: Waiting for pending navigations...
+[1752820432.280][INFO]: Done waiting for pending navigations. Status: ok
+[1752820432.293][INFO]: Waiting for pending navigations...
+[1752820432.295][INFO]: Done waiting for pending navigations. Status: ok
+[1752820432.296][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.53D981901A7ADD14B306014908314DCF.e.664"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.53D981901A7ADD14B306014908314DCF.e.665"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.53D981901A7ADD14B306014908314DCF.e.666"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.53D981901A7ADD14B306014908314DCF.e.667"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.53D981901A7ADD14B306014908314DCF.e.668"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.53D981901A7ADD14B306014908314DCF.e.669"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.53D981901A7ADD14B306014908314DCF.e.670"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.53D981901A7ADD14B306014908314DCF.e.671"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.53D981901A7ADD14B306014908314DCF.e.672"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.53D981901A7ADD14B306014908314DCF.e.673"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.53D981901A7ADD14B306014908314DCF.e.674"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.53D981901A7ADD14B306014908314DCF.e.675"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.53D981901A7ADD14B306014908314DCF.e.676"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.53D981901A7ADD14B306014908314DCF.e.677"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.53D981901A7ADD14B306014908314DCF.e.678"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.53D981901A7ADD14B306014908314DCF.e.679"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.53D981901A7ADD14B306014908314DCF.e.680"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.53D981901A7ADD14B306014908314DCF.e.681"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.53D981901A7ADD14B306014908314DCF.e.682"
+}, "..." ]
+[1752820432.300][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND GetElementText {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.53D981901A7ADD14B306014908314DCF.e.664"
+}
+[1752820432.300][INFO]: Waiting for pending navigations...
+[1752820432.301][INFO]: Done waiting for pending navigations. Status: ok
+[1752820432.307][INFO]: Waiting for pending navigations...
+[1752820432.308][INFO]: Done waiting for pending navigations. Status: ok
+[1752820432.308][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE GetElementText "6% off"
+[1752820432.312][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND GetElementText {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.53D981901A7ADD14B306014908314DCF.e.665"
+}
+[1752820432.312][INFO]: Waiting for pending navigations...
+[1752820432.312][INFO]: Done waiting for pending navigations. Status: ok
+[1752820432.321][INFO]: Waiting for pending navigations...
+[1752820432.322][INFO]: Done waiting for pending navigations. Status: ok
+[1752820432.322][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE GetElementText "7% off"
+[1752820432.324][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND GetElementText {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.53D981901A7ADD14B306014908314DCF.e.666"
+}
+[1752820432.324][INFO]: Waiting for pending navigations...
+[1752820432.324][INFO]: Done waiting for pending navigations. Status: ok
+[1752820432.333][INFO]: Waiting for pending navigations...
+[1752820432.334][INFO]: Done waiting for pending navigations. Status: ok
+[1752820432.334][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE GetElementText "5% off"
+[1752820432.336][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND GetElementText {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.53D981901A7ADD14B306014908314DCF.e.667"
+}
+[1752820432.336][INFO]: Waiting for pending navigations...
+[1752820432.337][INFO]: Done waiting for pending navigations. Status: ok
+[1752820432.342][INFO]: Waiting for pending navigations...
+[1752820432.344][INFO]: Done waiting for pending navigations. Status: ok
+[1752820432.344][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE GetElementText "6% off"
+[1752820432.347][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND GetElementText {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.53D981901A7ADD14B306014908314DCF.e.668"
+}
+[1752820432.347][INFO]: Waiting for pending navigations...
+[1752820432.347][INFO]: Done waiting for pending navigations. Status: ok
+[1752820432.353][INFO]: Waiting for pending navigations...
+[1752820432.353][INFO]: Done waiting for pending navigations. Status: ok
+[1752820432.354][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE GetElementText "6% off"
+[1752820432.356][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND GetElementText {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.53D981901A7ADD14B306014908314DCF.e.669"
+}
+[1752820432.356][INFO]: Waiting for pending navigations...
+[1752820432.357][INFO]: Done waiting for pending navigations. Status: ok
+[1752820432.363][INFO]: Waiting for pending navigations...
+[1752820432.363][INFO]: Done waiting for pending navigations. Status: ok
+[1752820432.363][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE GetElementText "9% off"
+[1752820432.365][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND GetElementText {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.53D981901A7ADD14B306014908314DCF.e.670"
+}
+[1752820432.365][INFO]: Waiting for pending navigations...
+[1752820432.366][INFO]: Done waiting for pending navigations. Status: ok
+[1752820432.371][INFO]: Waiting for pending navigations...
+[1752820432.372][INFO]: Done waiting for pending navigations. Status: ok
+[1752820432.372][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE GetElementText "9% off"
+[1752820432.374][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND GetElementText {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.53D981901A7ADD14B306014908314DCF.e.671"
+}
+[1752820432.374][INFO]: Waiting for pending navigations...
+[1752820432.375][INFO]: Done waiting for pending navigations. Status: ok
+[1752820432.383][INFO]: Waiting for pending navigations...
+[1752820432.384][INFO]: Done waiting for pending navigations. Status: ok
+[1752820432.384][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE GetElementText "5% off"
+[1752820432.386][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND GetElementText {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.53D981901A7ADD14B306014908314DCF.e.672"
+}
+[1752820432.386][INFO]: Waiting for pending navigations...
+[1752820432.387][INFO]: Done waiting for pending navigations. Status: ok
+[1752820432.394][INFO]: Waiting for pending navigations...
+[1752820432.395][INFO]: Done waiting for pending navigations. Status: ok
+[1752820432.395][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE GetElementText "9% off"
+[1752820432.396][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND GetElementText {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.53D981901A7ADD14B306014908314DCF.e.673"
+}
+[1752820432.397][INFO]: Waiting for pending navigations...
+[1752820432.397][INFO]: Done waiting for pending navigations. Status: ok
+[1752820432.403][INFO]: Waiting for pending navigations...
+[1752820432.403][INFO]: Done waiting for pending navigations. Status: ok
+[1752820432.404][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE GetElementText "6% off"
+[1752820432.406][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND GetElementText {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.53D981901A7ADD14B306014908314DCF.e.674"
+}
+[1752820432.406][INFO]: Waiting for pending navigations...
+[1752820432.407][INFO]: Done waiting for pending navigations. Status: ok
+[1752820432.415][INFO]: Waiting for pending navigations...
+[1752820432.416][INFO]: Done waiting for pending navigations. Status: ok
+[1752820432.416][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE GetElementText "6% off"
+[1752820432.418][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND GetElementText {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.53D981901A7ADD14B306014908314DCF.e.675"
+}
+[1752820432.418][INFO]: Waiting for pending navigations...
+[1752820432.418][INFO]: Done waiting for pending navigations. Status: ok
+[1752820432.423][INFO]: Waiting for pending navigations...
+[1752820432.424][INFO]: Done waiting for pending navigations. Status: ok
+[1752820432.424][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE GetElementText "5% off"
+[1752820432.426][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND GetElementText {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.53D981901A7ADD14B306014908314DCF.e.676"
+}
+[1752820432.426][INFO]: Waiting for pending navigations...
+[1752820432.428][INFO]: Done waiting for pending navigations. Status: ok
+[1752820432.434][INFO]: Waiting for pending navigations...
+[1752820432.435][INFO]: Done waiting for pending navigations. Status: ok
+[1752820432.435][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE GetElementText "11% off"
+[1752820432.437][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND GetElementText {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.53D981901A7ADD14B306014908314DCF.e.677"
+}
+[1752820432.437][INFO]: Waiting for pending navigations...
+[1752820432.437][INFO]: Done waiting for pending navigations. Status: ok
+[1752820432.444][INFO]: Waiting for pending navigations...
+[1752820432.444][INFO]: Done waiting for pending navigations. Status: ok
+[1752820432.445][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE GetElementText "5% off"
+[1752820432.447][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND GetElementText {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.53D981901A7ADD14B306014908314DCF.e.678"
+}
+[1752820432.447][INFO]: Waiting for pending navigations...
+[1752820432.448][INFO]: Done waiting for pending navigations. Status: ok
+[1752820432.454][INFO]: Waiting for pending navigations...
+[1752820432.454][INFO]: Done waiting for pending navigations. Status: ok
+[1752820432.454][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE GetElementText "11% off"
+[1752820432.456][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND GetElementText {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.53D981901A7ADD14B306014908314DCF.e.679"
+}
+[1752820432.456][INFO]: Waiting for pending navigations...
+[1752820432.457][INFO]: Done waiting for pending navigations. Status: ok
+[1752820432.463][INFO]: Waiting for pending navigations...
+[1752820432.464][INFO]: Done waiting for pending navigations. Status: ok
+[1752820432.464][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE GetElementText "5% off"
+[1752820432.466][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND GetElementText {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.53D981901A7ADD14B306014908314DCF.e.680"
+}
+[1752820432.466][INFO]: Waiting for pending navigations...
+[1752820432.467][INFO]: Done waiting for pending navigations. Status: ok
+[1752820432.474][INFO]: Waiting for pending navigations...
+[1752820432.481][INFO]: Done waiting for pending navigations. Status: ok
+[1752820432.481][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE GetElementText "18% off"
+[1752820432.484][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND FindChildElement {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.53D981901A7ADD14B306014908314DCF.e.680",
+   "using": "xpath",
+   "value": "ancestor::div[@class='tUxRFH']"
+}
+[1752820432.484][INFO]: Waiting for pending navigations...
+[1752820432.485][INFO]: Done waiting for pending navigations. Status: ok
+[1752820432.494][INFO]: Waiting for pending navigations...
+[1752820432.495][INFO]: Done waiting for pending navigations. Status: ok
+[1752820432.495][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.53D981901A7ADD14B306014908314DCF.e.687"
+}
+[1752820432.497][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND FindChildElement {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.53D981901A7ADD14B306014908314DCF.e.687",
+   "using": "xpath",
+   "value": ".//div[@class='KzDlHZ']"
+}
+[1752820432.497][INFO]: Waiting for pending navigations...
+[1752820432.498][INFO]: Done waiting for pending navigations. Status: ok
+[1752820432.507][INFO]: Waiting for pending navigations...
+[1752820432.507][INFO]: Done waiting for pending navigations. Status: ok
+[1752820432.508][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.53D981901A7ADD14B306014908314DCF.e.688"
+}
+[1752820432.511][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND GetElementText {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.53D981901A7ADD14B306014908314DCF.e.688"
+}
+[1752820432.511][INFO]: Waiting for pending navigations...
+[1752820432.512][INFO]: Done waiting for pending navigations. Status: ok
+[1752820432.517][INFO]: Waiting for pending navigations...
+[1752820432.517][INFO]: Done waiting for pending navigations. Status: ok
+[1752820432.518][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE GetElementText "Apple iPhone 15 (Green, 128 GB)"
+[1752820432.525][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND GetElementText {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.53D981901A7ADD14B306014908314DCF.e.681"
+}
+[1752820432.525][INFO]: Waiting for pending navigations...
+[1752820432.526][INFO]: Done waiting for pending navigations. Status: ok
+[1752820432.533][INFO]: Waiting for pending navigations...
+[1752820432.534][INFO]: Done waiting for pending navigations. Status: ok
+[1752820432.534][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE GetElementText "5% off"
+[1752820432.536][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND GetElementText {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.53D981901A7ADD14B306014908314DCF.e.682"
+}
+[1752820432.537][INFO]: Waiting for pending navigations...
+[1752820432.537][INFO]: Done waiting for pending navigations. Status: ok
+[1752820432.543][INFO]: Waiting for pending navigations...
+[1752820432.545][INFO]: Done waiting for pending navigations. Status: ok
+[1752820432.545][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE GetElementText "9% off"
+[1752820432.547][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND GetElementText {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.53D981901A7ADD14B306014908314DCF.e.683"
+}
+[1752820432.547][INFO]: Waiting for pending navigations...
+[1752820432.548][INFO]: Done waiting for pending navigations. Status: ok
+[1752820432.554][INFO]: Waiting for pending navigations...
+[1752820432.554][INFO]: Done waiting for pending navigations. Status: ok
+[1752820432.554][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE GetElementText "5% off"
+[1752820432.557][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND GetElementText {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.53D981901A7ADD14B306014908314DCF.e.684"
+}
+[1752820432.557][INFO]: Waiting for pending navigations...
+[1752820432.558][INFO]: Done waiting for pending navigations. Status: ok
+[1752820432.565][INFO]: Waiting for pending navigations...
+[1752820432.565][INFO]: Done waiting for pending navigations. Status: ok
+[1752820432.565][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE GetElementText "4% off"
+[1752820432.568][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND GetElementText {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.53D981901A7ADD14B306014908314DCF.e.685"
+}
+[1752820432.568][INFO]: Waiting for pending navigations...
+[1752820432.569][INFO]: Done waiting for pending navigations. Status: ok
+[1752820432.575][INFO]: Waiting for pending navigations...
+[1752820432.576][INFO]: Done waiting for pending navigations. Status: ok
+[1752820432.576][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE GetElementText "6% off"
+[1752820432.578][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND GetElementText {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.53D981901A7ADD14B306014908314DCF.e.686"
+}
+[1752820432.578][INFO]: Waiting for pending navigations...
+[1752820432.579][INFO]: Done waiting for pending navigations. Status: ok
+[1752820432.585][INFO]: Waiting for pending navigations...
+[1752820432.586][INFO]: Done waiting for pending navigations. Status: ok
+[1752820432.586][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE GetElementText "8% off"
+[1752820432.589][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND Navigate {
+   "url": "https://www.flipkart.com/"
+}
+[1752820432.589][INFO]: Waiting for pending navigations...
+[1752820432.590][INFO]: Done waiting for pending navigations. Status: ok
+[1752820433.043][INFO]: Waiting for pending navigations...
+[1752820433.734][INFO]: Done waiting for pending navigations. Status: ok
+[1752820433.734][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE Navigate
+[1752820433.738][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@name='q']"
+}
+[1752820433.738][INFO]: Waiting for pending navigations...
+[1752820433.750][INFO]: Done waiting for pending navigations. Status: ok
+[1752820433.783][INFO]: Waiting for pending navigations...
+[1752820433.788][INFO]: Done waiting for pending navigations. Status: ok
+[1752820433.788][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.BE759E8D6C3BFA7CA3D4719D84B05E15.e.779"
+}
+[1752820433.792][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.BE759E8D6C3BFA7CA3D4719D84B05E15.e.779"
+   } ],
+   "script": "/* isDisplayed */return (function(){return (function(){var g=this||self;\nfunction aa(a){var b=typeof a;if(\"object\"==b)if(a){if(a instanceof Array)return\"array\";if(a instanceof Object)return b;var c=Object.prototype.toString.call(a);if(\"[object Window]\"==c)return\"object\";if(\"[object Array]\"==c||\"number\"==typeof a.length&&\"undefined\"!=typeof a.splice&&\"undefined\"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable(\"splice\"))return\"array\";if(\"[object Function]\"==c||\"undefined\"!=typeof a.call&&\"undefined\"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable(\"call\"))return\"function\"}else return\"null\";else if(\"function\"==\nb&&\"undefined\"==typeof a.call)return\"object\";return b}function ca(a,b){function c(){}c.prototype=b.prototype;a.prototype=new c;a.prototype.constructor=a};var da=Array.prototype.indexOf?function(a,b){return Array.prototype.indexOf.call(a,b,void 0)}:function(a,b){if(\"string\"===typeof a)return\"string\"!==typeof b||1!=b.length?-1:a.indexOf(b,0);for(var c=0;c\u003Ca.length;c++)if(c in a&&a[c]===b)return c;return-1},ea=Array.prototype.some?function(a,b){return Array.prototype.some.call(a,b,void 0)}:function(a,b){for(var c=a.length,e=\"string\"===typeof a?a.split(\"\"):a,d=0;d\u003Cc;d++)if(d in e&&b.call(void 0,e[d],d,a))return!0;return!1},fa=Array.prototype.every?function(a,\nb){return Array.prototype.every.call(a,b,void 0)}:function(a,b){for(var c=a.length,e=\"string\"===typeof a?a.split(\"\"):a,d=0;d\u003Cc;d++)if(d in e&&!b.call(void 0,e[d],d,a))return!1;return!0};var ha={aliceblue:\"#f0f8ff\",antiquewhite:\"#faebd7\",aqua:\"#00ffff\",aquamarine:\"#7fffd4\",azure:\"#f0ffff\",beige:\"#f5f5dc\",bisque:\"#ffe4c4\",black:\"#000000\",blanchedalmond:\"#ffebcd\",blue:\"#0000ff\",blueviolet:\"#8a2be2\",brown:\"#a52a2a\",burlywood:\"#deb887\",cadetblue:\"#5f9ea0\",chartreuse:\"#7fff00\",chocolate:\"#d2691e\",coral:\"#ff7f50\",cornflowerblue:\"#6495ed\",cornsilk:\"#fff8dc\",crimson:\"#dc143c\",cyan:\"#00ffff\",darkblue:\"#00008b\",darkcyan:\"#008b8b\",darkgoldenrod:\"#b8860b\",darkgray:\"#a9a9a9\",darkgreen:\"#006400\",\ndarkgrey:\"#a9a9a9\",darkkhaki:\"#bdb76b\",darkmagenta:\"#8b008b\",darkolivegreen:\"#556b2f\",darkorange:\"#ff8c00\",darkorchid:\"#9932cc\",darkred:\"#8b0000\",darksalmon:\"#e9967a\",darkseagreen:\"#8fbc8f\",darkslateblue:\"#483d8b\",darkslategray:\"#2f4f4f\",darkslategrey:\"#2f4f4f\",darkturquoise:\"#00ced1\",darkviolet:\"#9400d3\",deeppink:\"#ff1493\",deepskyblue:\"#00bfff\",dimgray:\"#696969\",dimgrey:\"#696969\",dodgerblue:\"#1e90ff\",firebrick:\"#b22222\",floralwhite:\"#fffaf0\",forestgreen:\"#228b22\",fuchsia:\"#ff00ff\",gainsboro:\"#dcdcdc\",\nghostwhite:\"#f8f8ff\",gold:\"#ffd700\",goldenrod:\"#daa520\",gray:\"#808080\",green:\"#008000\",greenyellow:\"#adff2f\",grey:\"#808080\",honeydew:\"#f0fff0\",hotpink:\"#ff69b4\",indianred:\"#cd5c5c\",indigo:\"#4b0082\",ivory:\"#fffff0\",khaki:\"#f0e68c\",lavender:\"#e6e6fa\",lavenderblush:\"#fff0f5\",lawngreen:\"#7cfc00\",lemonchiffon:\"#fffacd\",lightblue:\"#add8e6\",lightcoral:\"#f08080\",lightcyan:\"#e0ffff\",lightgoldenrodyellow:\"#fafad2\",lightgray:\"#d3d3d3\",lightgreen:\"#90ee90\",lightgrey:\"#d3d3d3\",lightpink:\"#ffb6c1\",lightsalmon:\"#ffa07a\",\nlightseagreen:\"#20b2aa\",lightskyblue:\"#87cefa\",lightslategray:\"#778899\",lightslategrey:\"#778899\",lightsteelblue:\"#b0c4de\",lightyellow:\"#ffffe0\",lime:\"#00ff00\",limegreen:\"#32cd32\",linen:\"#faf0e6\",magenta:\"#ff00ff\",maroon:\"#800000\",mediumaquamarine:\"#66cdaa\",mediumblue:\"#0000cd\",mediumorchid:\"#ba55d3\",mediumpurple:\"#9370db\",mediumseagreen:\"#3cb371\",mediumslateblue:\"#7b68ee\",mediumspringgreen:\"#00fa9a\",mediumturquoise:\"#48d1cc\",mediumvioletred:\"#c71585\",midnightblue:\"#191970\",mintcream:\"#f5fffa\",mistyrose:\"#ffe4e1\",\nmoccasin:\"#ffe4b5\",navajowhite:\"#ffdead\",navy:\"#000080\",oldlace:\"#fdf5e6\",olive:\"#808000\",olivedrab:\"#6b8e23\",orange:\"#ffa500\",orangered:\"#ff4500\",orchid:\"#da70d6\",palegoldenrod:\"#eee8aa\",palegreen:\"#98fb98\",paleturquoise:\"#afeeee\",palevioletred:\"#db7093\",papayawhip:\"#ffefd5\",peachpuff:\"#ffdab9\",peru:\"#cd853f\",pink:\"#ffc0cb\",plum:\"#dda0dd\",powderblue:\"#b0e0e6\",purple:\"#800080\",red:\"#ff0000\",rosybrown:\"#bc8f8f\",royalblue:\"#4169e1\",saddlebrown:\"#8b4513\",salmon:\"#fa8072\",sandybrown:\"#f4a460\",seagreen:\"#2e8b57\",\nseashell:\"#fff5ee\",sienna:\"#a0522d\",silver:\"#c0c0c0\",skyblue:\"#87ceeb\",slateblue:\"#6a5acd\",slategray:\"#708090\",slategrey:\"#708090\",snow:\"#fffafa\",springgreen:\"#00ff7f\",steelblue:\"#4682b4\",tan:\"#d2b48c\",teal:\"#008080\",thistle:\"#d8bfd8\",tomato:\"#ff6347\",turquoise:\"#40e0d0\",violet:\"#ee82ee\",wheat:\"#f5deb3\",white:\"#ffffff\",whitesmoke:\"#f5f5f5\",yellow:\"#ffff00\",yellowgreen:\"#9acd32\"};var ia=\"backgroundColor borderTopColor borderRightColor borderBottomColor borderLeftColor color outlineColor\".split(\" \"),ja=/#([0-9a-fA-F])([0-9a-fA-F])([0-9a-fA-F])/,ka=/^#(?:[0-9a-f]{3}){1,2}$/i,la=/^(?:rgba)?\\((\\d{1,3}),\\s?(\\d{1,3}),\\s?(\\d{1,3}),\\s?(0|1|0\\.\\d*)\\)$/i,ma=/^(?:rgb)?\\((0|[1-9]\\d{0,2}),\\s?(0|[1-9]\\d{0,2}),\\s?(0|[1-9]\\d{0,2})\\)$/i;function m(a,b){this.code=a;this.a=p[a]||r;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(c){return c.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}ca(m,Error);var r=\"unknown error\",p={15:\"element not selectable\",11:\"element not visible\"};p[31]=r;p[30]=r;p[24]=\"invalid cookie domain\";p[29]=\"invalid element coordinates\";p[12]=\"invalid element state\";\np[32]=\"invalid selector\";p[51]=\"invalid selector\";p[52]=\"invalid selector\";p[17]=\"javascript error\";p[405]=\"unsupported operation\";p[34]=\"move target out of bounds\";p[27]=\"no such alert\";p[7]=\"no such element\";p[8]=\"no such frame\";p[23]=\"no such window\";p[28]=\"script timeout\";p[33]=\"session not created\";p[10]=\"stale element reference\";p[21]=\"timeout\";p[25]=\"unable to set cookie\";p[26]=\"unexpected alert open\";p[13]=r;p[9]=\"unknown command\";var u=String.prototype.trim?function(a){return a.trim()}:function(a){return/^[\\s\\xa0]*([\\s\\S]*?)[\\s\\xa0]*$/.exec(a)[1]};\nfunction na(a,b){var c=0;a=u(String(a)).split(\".\");b=u(String(b)).split(\".\");for(var e=Math.max(a.length,b.length),d=0;0==c&&d\u003Ce;d++){var f=a[d]||\"\",h=b[d]||\"\";do{f=/(\\d*)(\\D*)(.*)/.exec(f)||[\"\",\"\",\"\",\"\"];h=/(\\d*)(\\D*)(.*)/.exec(h)||[\"\",\"\",\"\",\"\"];if(0==f[0].length&&0==h[0].length)break;c=v(0==f[1].length?0:parseInt(f[1],10),0==h[1].length?0:parseInt(h[1],10))||v(0==f[2].length,0==h[2].length)||v(f[2],h[2]);f=f[3];h=h[3]}while(0==c)}return c}function v(a,b){return a\u003Cb?-1:a>b?1:0};var w;a:{var oa=g.navigator;if(oa){var sa=oa.userAgent;if(sa){w=sa;break a}}w=\"\"}function x(a){return-1!=w.indexOf(a)};function y(){return x(\"Firefox\")||x(\"FxiOS\")}function A(){return(x(\"Chrome\")||x(\"CriOS\"))&&!x(\"Edge\")};function ta(a){return String(a).replace(/\\-([a-z])/g,function(b,c){return c.toUpperCase()})};function B(){return x(\"iPhone\")&&!x(\"iPod\")&&!x(\"iPad\")};function ua(a,b){var c=va;return Object.prototype.hasOwnProperty.call(c,a)?c[a]:c[a]=b(a)};var wa=x(\"Opera\"),C=x(\"Trident\")||x(\"MSIE\"),xa=x(\"Edge\"),ya=x(\"Gecko\")&&!(-1!=w.toLowerCase().indexOf(\"webkit\")&&!x(\"Edge\"))&&!(x(\"Trident\")||x(\"MSIE\"))&&!x(\"Edge\"),za=-1!=w.toLowerCase().indexOf(\"webkit\")&&!x(\"Edge\");function Aa(){var a=g.document;return a?a.documentMode:void 0}var E;\na:{var F=\"\",G=function(){var a=w;if(ya)return/rv:([^\\);]+)(\\)|;)/.exec(a);if(xa)return/Edge\\/([\\d\\.]+)/.exec(a);if(C)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(za)return/WebKit\\/(\\S+)/.exec(a);if(wa)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();G&&(F=G?G[1]:\"\");if(C){var H=Aa();if(null!=H&&H>parseFloat(F)){E=String(H);break a}}E=F}var va={};function Ba(a){return ua(a,function(){return 0\u003C=na(E,a)})}var I;I=g.document&&C?Aa():void 0;var Ca=y(),Da=B()||x(\"iPod\"),Ea=x(\"iPad\"),Fa=x(\"Android\")&&!(A()||y()||x(\"Opera\")||x(\"Silk\")),Ga=A(),Ha=x(\"Safari\")&&!(A()||x(\"Coast\")||x(\"Opera\")||x(\"Edge\")||x(\"Edg/\")||x(\"OPR\")||y()||x(\"Silk\")||x(\"Android\"))&&!(B()||x(\"iPad\")||x(\"iPod\"));function J(a){return(a=a.exec(w))?a[1]:\"\"}(function(){if(Ca)return J(/Firefox\\/([0-9.]+)/);if(C||xa||wa)return E;if(Ga)return B()||x(\"iPad\")||x(\"iPod\")?J(/CriOS\\/([0-9.]+)/):J(/Chrome\\/([0-9.]+)/);if(Ha&&!(B()||x(\"iPad\")||x(\"iPod\")))return J(/Version\\/([0-9.]+)/);if(Da||Ea){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(w);if(a)return a[1]+\".\"+a[2]}else if(Fa)return(a=J(/Android\\s+([0-9.]+)/))?a:J(/Version\\/([0-9.]+)/);return\"\"})();var K;if(K=C)K=!(9\u003C=Number(I));var Ia=K;function L(a,b){this.x=void 0!==a?a:0;this.y=void 0!==b?b:0}L.prototype.ceil=function(){this.x=Math.ceil(this.x);this.y=Math.ceil(this.y);return this};L.prototype.floor=function(){this.x=Math.floor(this.x);this.y=Math.floor(this.y);return this};L.prototype.round=function(){this.x=Math.round(this.x);this.y=Math.round(this.y);return this};function M(a,b){this.width=a;this.height=b}M.prototype.aspectRatio=function(){return this.width/this.height};M.prototype.ceil=function(){this.width=Math.ceil(this.width);this.height=Math.ceil(this.height);return this};M.prototype.floor=function(){this.width=Math.floor(this.width);this.height=Math.floor(this.height);return this};M.prototype.round=function(){this.width=Math.round(this.width);this.height=Math.round(this.height);return this};function N(a){return 9==a.nodeType?a:a.ownerDocument||a.document}function Ja(a,b){a&&(a=a.parentNode);for(var c=0;a;){if(b(a))return a;a=a.parentNode;c++}return null}function Ka(a){this.a=a||g.document||document};function P(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)};function Q(a,b,c,e){this.f=a;this.a=b;this.b=c;this.c=e}Q.prototype.ceil=function(){this.f=Math.ceil(this.f);this.a=Math.ceil(this.a);this.b=Math.ceil(this.b);this.c=Math.ceil(this.c);return this};Q.prototype.floor=function(){this.f=Math.floor(this.f);this.a=Math.floor(this.a);this.b=Math.floor(this.b);this.c=Math.floor(this.c);return this};Q.prototype.round=function(){this.f=Math.round(this.f);this.a=Math.round(this.a);this.b=Math.round(this.b);this.c=Math.round(this.c);return this};function R(a,b,c,e){this.a=a;this.b=b;this.width=c;this.height=e}R.prototype.ceil=function(){this.a=Math.ceil(this.a);this.b=Math.ceil(this.b);this.width=Math.ceil(this.width);this.height=Math.ceil(this.height);return this};R.prototype.floor=function(){this.a=Math.floor(this.a);this.b=Math.floor(this.b);this.width=Math.floor(this.width);this.height=Math.floor(this.height);return this};\nR.prototype.round=function(){this.a=Math.round(this.a);this.b=Math.round(this.b);this.width=Math.round(this.width);this.height=Math.round(this.height);return this};var La=\"function\"===typeof ShadowRoot;function S(a){for(a=a.parentNode;a&&1!=a.nodeType&&9!=a.nodeType&&11!=a.nodeType;)a=a.parentNode;return P(a)?a:null}\nfunction T(a,b){b=ta(b);if(\"float\"==b||\"cssFloat\"==b||\"styleFloat\"==b)b=Ia?\"styleFloat\":\"cssFloat\";a:{var c=b;var e=N(a);if(e.defaultView&&e.defaultView.getComputedStyle&&(e=e.defaultView.getComputedStyle(a,null))){c=e[c]||e.getPropertyValue(c)||\"\";break a}c=\"\"}a=c||Ma(a,b);if(null===a)a=null;else if(0\u003C=da(ia,b)){b:{var d=a.match(la);if(d&&(b=Number(d[1]),c=Number(d[2]),e=Number(d[3]),d=Number(d[4]),0\u003C=b&&255>=b&&0\u003C=c&&255>=c&&0\u003C=e&&255>=e&&0\u003C=d&&1>=d)){b=[b,c,e,d];break b}b=null}if(!b)b:{if(e=a.match(ma))if(b=\nNumber(e[1]),c=Number(e[2]),e=Number(e[3]),0\u003C=b&&255>=b&&0\u003C=c&&255>=c&&0\u003C=e&&255>=e){b=[b,c,e,1];break b}b=null}if(!b)b:{b=a.toLowerCase();c=ha[b.toLowerCase()];if(!c&&(c=\"#\"==b.charAt(0)?b:\"#\"+b,4==c.length&&(c=c.replace(ja,\"#$1$1$2$2$3$3\")),!ka.test(c))){b=null;break b}b=[parseInt(c.substr(1,2),16),parseInt(c.substr(3,2),16),parseInt(c.substr(5,2),16),1]}a=b?\"rgba(\"+b.join(\", \")+\")\":a}return a}\nfunction Ma(a,b){var c=a.currentStyle||a.style,e=c[b];void 0===e&&\"function\"==aa(c.getPropertyValue)&&(e=c.getPropertyValue(b));return\"inherit\"!=e?void 0!==e?e:null:(a=S(a))?Ma(a,b):null}\nfunction U(a,b,c){function e(h){var n=V(h);return 0\u003Cn.height&&0\u003Cn.width?!0:P(h,\"PATH\")&&(0\u003Cn.height||0\u003Cn.width)?(h=T(h,\"stroke-width\"),!!h&&0\u003CparseInt(h,10)):\"hidden\"!=T(h,\"overflow\")&&ea(h.childNodes,function(D){return 3==D.nodeType||P(D)&&e(D)})}function d(h){return Na(h)==W&&fa(h.childNodes,function(n){return!P(n)||d(n)||!e(n)})}if(!P(a))throw Error(\"Argument to isShown must be of type Element\");if(P(a,\"BODY\"))return!0;if(P(a,\"OPTION\")||P(a,\"OPTGROUP\"))return a=Ja(a,function(h){return P(h,\"SELECT\")}),\n!!a&&U(a,!0,c);var f=Oa(a);if(f)return!!f.image&&0\u003Cf.rect.width&&0\u003Cf.rect.height&&U(f.image,b,c);if(P(a,\"INPUT\")&&\"hidden\"==a.type.toLowerCase()||P(a,\"NOSCRIPT\"))return!1;f=T(a,\"visibility\");return\"collapse\"!=f&&\"hidden\"!=f&&c(a)&&(b||0!=Pa(a))&&e(a)?!d(a):!1}var W=\"hidden\";\nfunction Na(a){function b(k){function l(ba){if(ba==h)return!0;var pa=T(ba,\"display\");return 0==pa.lastIndexOf(\"inline\",0)||\"contents\"==pa||\"absolute\"==qa&&\"static\"==T(ba,\"position\")?!1:!0}var qa=T(k,\"position\");if(\"fixed\"==qa)return ra=!0,k==h?null:h;for(k=S(k);k&&!l(k);)k=S(k);return k}function c(k){var l=k;if(\"visible\"==D)if(k==h&&n)l=n;else if(k==n)return{x:\"visible\",y:\"visible\"};l={x:T(l,\"overflow-x\"),y:T(l,\"overflow-y\")};k==h&&(l.x=\"visible\"==l.x?\"auto\":l.x,l.y=\"visible\"==l.y?\"auto\":l.y);return l}\nfunction e(k){if(k==h){var l=(new Ka(f)).a;k=l.scrollingElement?l.scrollingElement:za||\"CSS1Compat\"!=l.compatMode?l.body||l.documentElement:l.documentElement;l=l.parentWindow||l.defaultView;k=C&&Ba(\"10\")&&l.pageYOffset!=k.scrollTop?new L(k.scrollLeft,k.scrollTop):new L(l.pageXOffset||k.scrollLeft,l.pageYOffset||k.scrollTop)}else k=new L(k.scrollLeft,k.scrollTop);return k}var d=Qa(a),f=N(a),h=f.documentElement,n=f.body,D=T(h,\"overflow\"),ra;for(a=b(a);a;a=b(a)){var q=c(a);if(\"visible\"!=q.x||\"visible\"!=\nq.y){var t=V(a);if(0==t.width||0==t.height)return W;var z=d.a\u003Ct.a,O=d.b\u003Ct.b;if(z&&\"hidden\"==q.x||O&&\"hidden\"==q.y)return W;if(z&&\"visible\"!=q.x||O&&\"visible\"!=q.y){z=e(a);O=d.b\u003Ct.b-z.y;if(d.a\u003Ct.a-z.x&&\"visible\"!=q.x||O&&\"visible\"!=q.x)return W;d=Na(a);return d==W?W:\"scroll\"}z=d.c>=t.a+t.width;t=d.f>=t.b+t.height;if(z&&\"hidden\"==q.x||t&&\"hidden\"==q.y)return W;if(z&&\"visible\"!=q.x||t&&\"visible\"!=q.y){if(ra&&(q=e(a),d.c>=h.scrollWidth-q.x||d.a>=h.scrollHeight-q.y))return W;d=Na(a);return d==W?W:\"scroll\"}}}return\"none\"}\nfunction V(a){var b=Oa(a);if(b)return b.rect;if(P(a,\"HTML\"))return a=N(a),a=((a?a.parentWindow||a.defaultView:window)||window).document,a=\"CSS1Compat\"==a.compatMode?a.documentElement:a.body,a=new M(a.clientWidth,a.clientHeight),new R(0,0,a.width,a.height);try{var c=a.getBoundingClientRect()}catch(e){return new R(0,0,0,0)}b=new R(c.left,c.top,c.right-c.left,c.bottom-c.top);C&&a.ownerDocument.body&&(a=N(a),b.a-=a.documentElement.clientLeft+a.body.clientLeft,b.b-=a.documentElement.clientTop+a.body.clientTop);\nreturn b}\nfunction Oa(a){var b=P(a,\"MAP\");if(!b&&!P(a,\"AREA\"))return null;var c=b?a:P(a.parentNode,\"MAP\")?a.parentNode:null,e=null,d=null;if(c&&c.name){e='*[usemap=\"#'+c.name+'\"]';c=N(c);var f;if(f=\"function\"!=aa(c.querySelector)&&C&&(C?0\u003C=na(I,8):Ba(8))){f=c.querySelector;var h=typeof f;f=!(\"object\"==h&&null!=f||\"function\"==h)}if(f)throw Error(\"CSS selection is not supported\");if(!e)throw new m(32,\"No selector specified\");e=u(e);try{var n=c.querySelector(e)}catch(D){throw new m(32,\"An invalid or illegal selector was specified\");}if(e=\nn&&1==n.nodeType?n:null)d=V(e),b||\"default\"==a.shape.toLowerCase()||(a=Ra(a),b=Math.min(Math.max(a.a,0),d.width),n=Math.min(Math.max(a.b,0),d.height),d=new R(b+d.a,n+d.b,Math.min(a.width,d.width-b),Math.min(a.height,d.height-n)))}return{image:e,rect:d||new R(0,0,0,0)}}\nfunction Ra(a){var b=a.shape.toLowerCase();a=a.coords.split(\",\");if(\"rect\"==b&&4==a.length){b=a[0];var c=a[1];return new R(b,c,a[2]-b,a[3]-c)}if(\"circle\"==b&&3==a.length)return b=a[2],new R(a[0]-b,a[1]-b,2*b,2*b);if(\"poly\"==b&&2\u003Ca.length){b=a[0];c=a[1];for(var e=b,d=c,f=2;f+1\u003Ca.length;f+=2)b=Math.min(b,a[f]),e=Math.max(e,a[f]),c=Math.min(c,a[f+1]),d=Math.max(d,a[f+1]);return new R(b,c,e-b,d-c)}return new R(0,0,0,0)}function Qa(a){a=V(a);return new Q(a.b,a.a+a.width,a.b+a.height,a.a)}\nfunction Pa(a){if(Ia){if(\"relative\"==T(a,\"position\"))return 1;a=T(a,\"filter\");return(a=a.match(/^alpha\\(opacity=(\\d*)\\)/)||a.match(/^progid:DXImageTransform.Microsoft.Alpha\\(Opacity=(\\d*)\\)/))?Number(a[1])/100:1}return Sa(a)}function Sa(a){var b=1,c=T(a,\"opacity\");c&&(b=Number(c));(a=S(a))&&(b*=Sa(a));return b};function Ta(a,b){function c(e){if(P(e)&&\"none\"==T(e,\"display\"))return!1;var d;if((d=e.parentNode)&&d.shadowRoot&&void 0!==e.assignedSlot)d=e.assignedSlot?e.assignedSlot.parentNode:null;else if(e.getDestinationInsertionPoints){var f=e.getDestinationInsertionPoints();0\u003Cf.length&&(d=f[f.length-1])}if(La&&d instanceof ShadowRoot){if(d.host.shadowRoot&&d.host.shadowRoot!==d)return!1;d=d.host}return!d||9!=d.nodeType&&11!=d.nodeType?d&&P(d,\"DETAILS\")&&!d.open&&!P(e,\"SUMMARY\")?!1:!!d&&c(d):!0}return U(a,\n!!b,c)}var X=[\"_\"],Y=g;X[0]in Y||\"undefined\"==typeof Y.execScript||Y.execScript(\"var \"+X[0]);for(var Z;X.length&&(Z=X.shift());)X.length||void 0===Ta?Y[Z]&&Y[Z]!==Object.prototype[Z]?Y=Y[Z]:Y=Y[Z]={}:Y[Z]=Ta;; return this._.apply(null,arguments);}).apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1752820433.793][INFO]: Waiting for pending navigations...
+[1752820433.796][INFO]: Done waiting for pending navigations. Status: ok
+[1752820433.803][INFO]: Waiting for pending navigations...
+[1752820433.804][INFO]: Done waiting for pending navigations. Status: ok
+[1752820433.804][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE ExecuteScript true
+[1752820433.806][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@name='q']"
+}
+[1752820433.807][INFO]: Waiting for pending navigations...
+[1752820433.807][INFO]: Done waiting for pending navigations. Status: ok
+[1752820433.816][INFO]: Waiting for pending navigations...
+[1752820433.817][INFO]: Done waiting for pending navigations. Status: ok
+[1752820433.817][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.BE759E8D6C3BFA7CA3D4719D84B05E15.e.779"
+}
+[1752820433.819][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND ClearElement {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.BE759E8D6C3BFA7CA3D4719D84B05E15.e.779"
+}
+[1752820433.819][INFO]: Waiting for pending navigations...
+[1752820433.820][INFO]: Done waiting for pending navigations. Status: ok
+[1752820433.847][INFO]: Waiting for pending navigations...
+[1752820433.850][INFO]: Done waiting for pending navigations. Status: ok
+[1752820433.850][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE ClearElement
+[1752820433.852][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND TypeElement {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.BE759E8D6C3BFA7CA3D4719D84B05E15.e.779",
+   "text": "Coffee Mug",
+   "value": [ "C", "o", "f", "f", "e", "e", " ", "M", "u", "g" ]
+}
+[1752820433.852][INFO]: Waiting for pending navigations...
+[1752820433.853][INFO]: Done waiting for pending navigations. Status: ok
+[1752820433.939][INFO]: Waiting for pending navigations...
+[1752820433.947][INFO]: Done waiting for pending navigations. Status: ok
+[1752820433.947][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE TypeElement
+[1752820433.951][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND TypeElement {
+   "id": "f.E41E1588F1FCB6C0C5C86D04AEFC748E.d.BE759E8D6C3BFA7CA3D4719D84B05E15.e.779",
+   "text": "",
+   "value": [ "" ]
+}
+[1752820433.951][INFO]: Waiting for pending navigations...
+[1752820433.951][INFO]: Done waiting for pending navigations. Status: ok
+[1752820433.987][INFO]: Waiting for pending navigations...
+[1752820436.123][INFO]: Done waiting for pending navigations. Status: ok
+[1752820436.123][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE TypeElement
+[1752820439.146][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[contains(text(),'4â˜… & above')]"
+}
+[1752820439.147][INFO]: Waiting for pending navigations...
+[1752820439.148][INFO]: Done waiting for pending navigations. Status: ok
+[1752820469.190][INFO]: Waiting for pending navigations...
+[1752820469.191][INFO]: Done waiting for pending navigations. Status: ok
+[1752820469.191][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'4â˜… & above')]"}
+  (Session info: chrome=138.0.7204.101)
+[1752820472.209][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='s1AVV4']//span[@class='Wphh3N']"
+}
+[1752820472.209][INFO]: Waiting for pending navigations...
+[1752820472.210][INFO]: Done waiting for pending navigations. Status: ok
+[1752820502.219][INFO]: Waiting for pending navigations...
+[1752820502.220][INFO]: Done waiting for pending navigations. Status: ok
+[1752820502.220][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE FindElements [  ]
+[1752820502.228][INFO]: [ce89fde5931bbbda822eb623ac384943] COMMAND CloseWindow {
+}
+[1752820502.290][WARNING]: Processing messages while being disconnected
+[1752820502.290][SEVERE]: Unable to receive message from renderer
+[1752820502.353][INFO]: [ce89fde5931bbbda822eb623ac384943] RESPONSE CloseWindow [  ]
